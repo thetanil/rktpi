@@ -2,13 +2,13 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = "Nelson Chen"
-SITENAME = "Pelican Action Demo"
+AUTHOR = "Theta Nil"
+SITENAME = "Rocket Pi (rktpi) Project Documentation"
 SITEURL = ""
 
 PATH = "content"
 
-TIMEZONE = "America/Phoenix"
+TIMEZONE = "EST"
 
 DEFAULT_LANG = "en"
 
