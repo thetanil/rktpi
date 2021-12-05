@@ -5,6 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = "Theta Nil"
 SITENAME = "Rocket Pi (rktpi) Project Documentation"
 SITEURL = ""
+THEME = "themes/rktpi"
 
 PATH = "content"
 
