@@ -5,3 +5,5 @@ Category: Blog
 # first-pelican-post
 
 this is a post
+
+Hi Mom!
