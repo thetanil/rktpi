@@ -132,3 +132,5 @@ dmypy.json
 # pelican build target
 output/
 public/
+
+.hugo_build.lock
