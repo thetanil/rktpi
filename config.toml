@@ -1,0 +1,5 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'rktpi'
+theme = 'min'
+ignoreErrors = ["error-missing-instagram-accesstoken"] 
