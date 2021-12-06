@@ -1,0 +1,37 @@
+<!doctype html><html lang=en-us xmlns=http://www.w3.org/1999/xhtml><head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<link rel=icon href=data:,%89PNG%0D%0A%1A%0A>
+<title>rktpi | Math Typesetting</title>
+<style type=text/css>body{font-size:150%;font-family:muli,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif}</style>
+</head>
+<body><p><a href=#nav-menu>Menu</a></p>
+<h1>Math Typesetting</h1>
+<p>by Hugo Authors</p>
+<p>Mar 8, 2019</p>
+<p>Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.</p>
+<p>In this example we will be using <a href=https://katex.org/>KaTeX</a></p>
+<ul>
+<li>Create a partial under <code>/layouts/partials/math.html</code></li>
+<li>Within this partial reference the <a href=https://katex.org/docs/autorender.html>Auto-render Extension</a> or host these scripts locally.</li>
+<li>Include the partial in your templates like so:</li>
+</ul>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=color:#f92672>{{</span> <span style=color:#66d9ef>if</span> or .Params.math .Site.Params.math <span style=color:#f92672>}}</span>
+<span style=color:#f92672>{{</span> partial <span style=color:#e6db74>&#34;math.html&#34;</span> . <span style=color:#f92672>}}</span>
+<span style=color:#f92672>{{</span> end <span style=color:#f92672>}}</span>
+</code></pre></div><ul>
+<li>To enable KaTex globally set the parameter <code>math</code> to <code>true</code> in a project&rsquo;s configuration</li>
+<li>To enable KaTex on a per page basis include the parameter <code>math: true</code> in content files</li>
+</ul>
+<p><strong>Note:</strong> Use the online reference of <a href=https://katex.org/docs/supported.html>Supported TeX Functions</a></p>
+<h3 id=examples>Examples</h3>
+<p>Block math:
+$$
+\varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
+$$</p>
+<p><a id=nav-menu><strong>Site menu</strong></a></p>
+<ul>
+</ul>
+<p><a href=#>Back to top</a></p>
+</body>
+</html>
