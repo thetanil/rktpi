@@ -21,6 +21,8 @@ windows elevated cmd prompt -
         git clone --depth 1 https://github.com/leonstafford/accessible-minimalism-hugo-theme themes/min
 
 
+hugo generates more complex site in 17s vs 1 page for 1+ minute for pelican 
+
 # something else
 
 There is no way to make a web app where users keep their data
