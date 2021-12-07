@@ -13,6 +13,7 @@ a way to move out of the cloud
 
 [![hugo pages](https://github.com/thetanil/rktpi/actions/workflows/hugo.yml/badge.svg)](https://github.com/thetanil/rktpi/actions/workflows/hugo.yml)
 
+
 ## hugo
 
 windows elevated cmd prompt - 
@@ -51,4 +52,39 @@ Hugo Theme Choice (accessible-minimum):
 ## no second request and performance
     what about favicon.ico
 
+
+# Game Engine
+
+Latency will be a key performance factor.
+Building a system with a focus on 
+HTTP Latency
+DNS Latency
+RTT Latency
+SMTP Delivery
+
+
+# things that never leave the box
+A second browser request
+Hash of single email address
+
+# Features
+
+[RKTPI project CI Reference](https://github.com/freqtrade/freqtrade/blob/stable/.github/workflows/ci.yml)
+Game Engine
+Email Reader
+- secure app
+- per channel retention
+- email searches as channels
+- [<channel_name>] subject line channels
+Search Engine - insecure app
+Personal Crawler (all read pages re-rendered and searchable in read-mode like render)
+
+
+# end user install workflow
+
+fork rktpi repo
+include/install GH Marketplace Action
+setup rpi (raspbian) or cheap_ass_ec2 as remote action runner
+push update to repo
+build configures rpi and responds with phone registration link
 
