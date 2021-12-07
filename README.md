@@ -1,6 +1,7 @@
 # rktpi
 a way to move out of the cloud
 
+## Pelican
 [![.github/workflows/pelican.yml](https://github.com/thetanil/rktpi/actions/workflows/pelican.yml/badge.svg)](https://github.com/thetanil/rktpi/actions/workflows/pelican.yml)
 
 - [RKTPi Documentation](https://thetanil.github.io/rktpi/)
@@ -9,10 +10,10 @@ a way to move out of the cloud
 - [GH Pelican Action](https://github.com/nelsonjchen/pelican-action-demo)
 - [Pelican Simple Template](https://github.com/getpelican/pelican/tree/master/pelican/themes/simple/templates)
 
-[![github pages](https://github.com/thetanil/rktpi/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/thetanil/rktpi/actions/workflows/gh-pages.yml)
 
+[![hugo pages](https://github.com/thetanil/rktpi/actions/workflows/hugo.yml/badge.svg)](https://github.com/thetanil/rktpi/actions/workflows/hugo.yml)
 
-now hugo
+## hugo
 
 windows elevated cmd prompt - 
 
