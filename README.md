@@ -11,7 +11,7 @@ a way to move out of the cloud
 - [Pelican Simple Template](https://github.com/getpelican/pelican/tree/master/pelican/themes/simple/templates)
 
 
-[![hugo pages](https://github.com/thetanil/rktpi/actions/workflows/hugo.yml/badge.svg)](https://github.com/thetanil/rktpi/actions/workflows/hugo.yml)
+[![build docs](https://github.com/thetanil/rktpi/actions/workflows/hugo.yml/badge.svg)](https://github.com/thetanil/rktpi/actions/workflows/hugo.yml)
 
 
 ## hugo
@@ -24,6 +24,12 @@ windows elevated cmd prompt -
 
 
 hugo generates more complex site in 17s vs 1 page for 1+ minute for pelican 
+
+## Project Documentation
+
+all documentation in docs/ directory
+
+generated with hugo 
 
 # something else
 
@@ -61,6 +67,8 @@ HTTP Latency
 DNS Latency
 RTT Latency
 SMTP Delivery
+Rock Paper Scissors Turn Based Simulteneous Selection Game Engine
+- (can be used by insecure apps which do animations in app)
 
 
 # things that never leave the box
