@@ -8,6 +8,11 @@ tags = [
 ]
 +++
 
+:blush:
+:see_no_evil:
+:hear_no_evil:
+:speak_no_evil:
+
 Emoji can be enabled in a Hugo project in a number of ways. 
 <!--more-->
 The [`emojify`](https://gohugo.io/functions/emojify/) function can be called directly in templates or [Inline Shortcodes](https://gohugo.io/templates/shortcode-templates/#inline-shortcodes). 

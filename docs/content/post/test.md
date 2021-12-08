@@ -1,7 +1,7 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: "Test"
 author: "Nick Hildebrant"
-date: {{ .Date }}
+date: 2021-12-08T15:28:41+01:00
 description: Describe this document
 tags:
 - markdown

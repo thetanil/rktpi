@@ -1,12 +1,13 @@
 baseURL = 'https://thetanil.github.io/rktpi/'
 languageCode = 'en-us'
-title = 'rktpi - Rocket Pi'
+title = 'rktpi'
 theme = 'smol'
 ignoreErrors = ["error-missing-instagram-accesstoken"] 
+enableEmoji = true
 
 # Parameters
 [params]
-    subtitle = "A Way Out of the Cloud"
+    subtitle = "Rocket Pi - A Way Out of the Clouds"
     dateFmt = "02.01.2006 15:04"
 
 # Header
@@ -26,13 +27,13 @@ ignoreErrors = ["error-missing-instagram-accesstoken"]
   [[menu.main]]
         identifier = "tags"
         name = "Tags"
-        url = "/tags/"
+        url = "tags/"
         weight = 3
 
 # Footer
   [[menu.footer]]
         name = "Github"
-        url = "https://github.com/example"
+        url = "https://github.com/thetanil/rktpi"
         weight = 1 
 
     [[menu.footer]]
@@ -41,6 +42,6 @@ ignoreErrors = ["error-missing-instagram-accesstoken"]
         weight = 2 
 
     [[menu.footer]]
-        name = "Imprint"
+        name = "Contact"
         url = "/imprint"
         weight = 3 
