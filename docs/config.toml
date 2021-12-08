@@ -4,6 +4,7 @@ title = 'rktpi'
 theme = 'smol'
 ignoreErrors = ["error-missing-instagram-accesstoken"] 
 enableEmoji = true
+staticDir = ['static']
 
 # Parameters
 [params]
