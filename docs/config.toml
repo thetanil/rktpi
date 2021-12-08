@@ -1,5 +1,5 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://thetanil.github.io/rktpi/'
 languageCode = 'en-us'
-title = 'rktpi'
+title = 'rktpi2'
 theme = 'min'
 ignoreErrors = ["error-missing-instagram-accesstoken"] 
