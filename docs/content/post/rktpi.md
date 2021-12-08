@@ -17,12 +17,18 @@ aliases:
 draft: false
 ---
 
+
 ## What it is
+
+A platform for web apps running on YOUR Pi, with YOUR Data, accessible from YOUR phone.
+
+## Features
 
 - A guard computer for your phone
 - A translator of documents
-- An Internet presented as you asked
+- An internet filtered of garbage
 - A path out of the cloud
+- Keep your own email, back it up ez
 
 ## The Questions
 
