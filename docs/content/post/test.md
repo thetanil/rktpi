@@ -17,3 +17,4 @@ aliases:
 draft: true
 ---
 
+thou shalt test
