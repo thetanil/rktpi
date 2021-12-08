@@ -3,7 +3,7 @@ name: hugo pages
 on:
   push:
     branches:
-      - main # Set a branch to deploy
+      - main # Set a branch to deploy asd
   pull_request:
 
 jobs:
