@@ -129,8 +129,8 @@ dmypy.json
 .pyre/
 
 
-# pelican build target
-output/
+# hugo build target
 public/
+docs/resources/
 
 .hugo_build.lock
