@@ -6,6 +6,7 @@ description = "Guide to emoji usage in Hugo"
 tags = [
     "emoji",
 ]
+draft = true
 +++
 
 :blush:

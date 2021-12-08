@@ -17,6 +17,4 @@ aliases:
 draft: true
 ---
 
-Connect to remote sqlite instances over ssh
-
 thou shalt test
