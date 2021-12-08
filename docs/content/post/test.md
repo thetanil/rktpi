@@ -14,7 +14,7 @@ series:
 - World Premier
 aliases:
 - aliased af
-draft: true
+draft: false
 ---
 
 thou shalt test
