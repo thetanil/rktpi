@@ -22,6 +22,8 @@ draft: false
 
 A platform for web apps running on YOUR Pi, with YOUR Data, accessible from YOUR phone.
 
+Hi ruzi
+
 ## Features
 
 - A guard computer for your phone
