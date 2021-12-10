@@ -13,7 +13,7 @@ categories:
 series:
 - World Premier
 aliases:
-- aliased af
+- aliased
 draft: true
 ---
 
