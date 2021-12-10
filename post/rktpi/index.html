@@ -30,26 +30,128 @@
 <div>
 <h2 id=what-it-is>What it is</h2>
 <p>A platform for web apps running on YOUR Pi, with YOUR Data, accessible from YOUR phone.</p>
-<p>Hi ruzi</p>
+<p>Your data in your home. Your safe space near the Internet.</p>
 <h2 id=features>Features</h2>
 <ul>
 <li>A guard computer for your phone</li>
 <li>A translator of documents</li>
 <li>An internet filtered of garbage</li>
 <li>A path out of the cloud</li>
-<li>Keep your own email, back it up ez</li>
+<li>Keep your own email, back it up EZ</li>
+<li>UX - just for you
+<ul>
+<li>ads be damned</li>
+<li>Extremely opinionated to favor accessibility and UX performance</li>
+<li>No JS, just enough CSS to unify browsers, there is no ad network</li>
+<li>No colors, user theme-able viewer</li>
+<li>Gemini with markdown and pictures</li>
+</ul>
+</li>
+<li>Has to may may
+<ul>
+<li>but with SVG</li>
+<li>they can be big <a href=https://www.reddit.com/r/HighQualityGifs/>think HighQualityGifs</a></li>
+<li>you see them when they are cached already</li>
+</ul>
+</li>
+<li>comments about a content item are found in matrix via #content_id</li>
 </ul>
 <h2 id=the-questions>The Questions</h2>
 <p>Rocket Pi is an attempt to answer the following questions:</p>
 <ul>
 <li>how can we get developers to build web apps which allow you to keep your data</li>
-<li>how can i legally show you your FB feed without all the garbage you didn&rsquo;t ever ask for</li>
+<li>how can I legally show you your FB feed without all the garbage you didn&rsquo;t ever ask for</li>
 <li>why can&rsquo;t we have just email we can trust (spoiler: we can)</li>
 </ul>
 <p><em>many people want out of the cloud, but do not know how</em></p>
 <h2 id=but-first>But First&mldr;</h2>
 <h3 id=its-a-game-engine>It&rsquo;s a game engine?</h3>
-<p>Rocket Pi Motto #1: Invent Nothing</p>
+<h5 id=rocket-pi-motto-1-invent-nothing>Rocket Pi Motto #1: Invent Nothing</h5>
+<p>Use well known reliable software everywhere possible.
+SMTP, DNS, OpenSSH</p>
+<p>Any turn in a card game or board game can be represented as a state, and a choice of moves
+hidden state can be shared by receiving a list of signed item hashes and returning a signed hash of the permutation to be checked at end of game
+State hidden from both players and next_item messages pop next hash from opponent
+Like a deck of cards, you know WHAT is in the pile, you just don&rsquo;t know the order
+You must ask your opponent what the next item is, but they are drawing blind
+By popping all items from your opponent you can verify the shuffle hash
+or make all shuffle indexes strictly monotonic increasing (the shuffle is the sorted signed hashes returned)</p>
+<h5 id=shuffle-2p>Shuffle 2p</h5>
+<h5 id=dice-roll-2p>Dice Roll 2p</h5>
+<ul>
+<li>generate random[n] for n dice rolls</li>
+<li>send to all players for turn x</li>
+<li>when all players have received turn<input checked disabled type=checkbox> [random[n]]</li>
+<li>sum all random[1] % 6 for 6 sided</li>
+</ul>
+<pre tabindex=0><code>t1 = P1 sequence of random numbers and/or moves
+t2 = P2 sequence of random numbers and/or moves
+
+h1 = hash(p1)
+h2 = hash(p2)
+
+P1 -&gt; P2, h1
+P2 -&gt; P1, h2
+
+P1(h2) -&gt; P2, p1
+P2(h1) -&gt; P1, p2
+</code></pre><ul>
+<li>Games with repeatable starting positions, or rewind</li>
+<li>What about timeouts, sequenced turns, drawing in multiplayer</li>
+<li>Can you play werewolf?</li>
+</ul>
+<h5 id=playing-rock-paper-scissors>Playing Rock Paper Scissors</h5>
+<p>game_id = hash(hash(P1.salt), hash(P2.salt))
+Email directly self, opponent
+m1p1 = game_id, turn_id, move, previous_state
+m1p2 = game_id, turn_id, move, previous_state
+P1 -> P2 game_id, turn_id, hash(m1p1)
+P2 -> P1 game_id, turn_id, hash(m1p2)</p>
+<p>P2 -> P1 m1p2 = hash(scissors, game_id, turn#, sig)
+P1 ->
+state = apply previous state, m1</p>
+<h1 id=state-should-be-same-for-both-players>state should be same for both players</h1>
+<p>P1 -> P2 m2p1 = state, sig(hash(paper, game_id, turn#, state))</p>
+<p>First Cheat Free Simultaneous selection multiplayer FMAIL based game engine</p>
+<h3 id=what-is-fmail>What is fmail</h3>
+<p>fmail is just an extremely restrictive and prescriptive subset of email</p>
+<ul>
+<li>pki encryption required</li>
+<li>signatures required</li>
+<li>should be formalized like an addendum RFC</li>
+</ul>
+<h5 id=fmailclient>fmail.client</h5>
+<ul>
+<li>can be made by anyone</li>
+<li>connects to an email account</li>
+<li>app notifications via IMAP notifications</li>
+<li>&ldquo;official&rdquo; is reference no-JS web app running on pi</li>
+<li><a href=https://keys.openpgp.org/about/faq>https://keys.openpgp.org/about/faq</a></li>
+<li><a href=https://weberblog.net/pgp-key-distribution-via-dnssec-openpgpkey/>https://weberblog.net/pgp-key-distribution-via-dnssec-openpgpkey/</a></li>
+<li><a href=https://weberblog.net/how-to-use-danetlsa/>https://weberblog.net/how-to-use-danetlsa/</a></li>
+<li><a href=https://github.com/emersion/go-smtp>https://github.com/emersion/go-smtp</a></li>
+<li><a href=https://dev.gnupg.org/T4618>https://dev.gnupg.org/T4618</a> (RFC is experimental 5 years)</li>
+<li>use a fake TLD? (rktpi) so we can&rsquo;t even be found by clear-net spammers</li>
+<li>pi generates unique ID -> request(id, IPv4/6) -> get domain.rktpi unique to that device</li>
+</ul>
+<h2 id=mvp-for-ge>MVP for GE</h2>
+<h3 id=synced-to-existing-mail>Synced to Existing Mail</h3>
+<p>Possible tools:</p>
+<ul>
+<li><a href=https://github.com/imapsync/imapsync>https://github.com/imapsync/imapsync</a></li>
+<li><a href=https://imapsync.lamiral.info/S/external.shtml>alternatives</a></li>
+</ul>
+<h3 id=caddy>Caddy</h3>
+<h3 id=direct-delivery-postfix>Direct Delivery Postfix</h3>
+<p>MUST ONLY ACCEPT:
+mail for own recipients (local mailbox, NO RELAY)
+mail encrypted with recipient public key
+mail encrypted (signed) by verified sender -> file in mail directory
+mail signed by unknown sender -> new contacts, user interaction required</p>
+<p>offer something like: <a href=https://protonmail.com/support/knowledge-base/transitioning-from-gmail-to-protonmail/>ProtonMail&rsquo;s Easy Switch</a></p>
+<p>Skip DNS Zone Replication
+Provide SMTP service which sends a signed encrypted email which updates user specific MX record only
+<a href=https://imapsync.lamiral.info/FAQ.d/FAQ.Folders_Selection.txt>Each app syncs own folder?</a></p>
 <p>
 <figure>
 <img src=/rktpi/svg/rktpi.svg alt="alt rktpi">
