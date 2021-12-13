@@ -28,5 +28,26 @@ jobs:
           python3 -m pip install -r requirements.txt
           # pip install -e . # Install a project in editable mode (i.e. setuptools "develop mode")
 
+      # TEST
+
       - name: Run tests with pytest # run ci
         run: pytest
+
+      # DOCS
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "latest"
+          # extended: true
+
+      - name: Build
+        working-directory: ./docs
+        run: hugo --minify -d ../public
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: ${{ github.ref == 'refs/heads/main' }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
