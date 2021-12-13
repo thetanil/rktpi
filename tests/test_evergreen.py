@@ -15,5 +15,5 @@ def test_answer():
     assert 1 == 1
 
 
-def test_fail():
+def disabled_test_fail():
     assert 1 == 2
