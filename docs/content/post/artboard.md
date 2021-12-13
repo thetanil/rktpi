@@ -17,7 +17,7 @@ aliases:
 draft: false
 ---
 
-![alt artboard 1](/rktpi/svg/artboard_1.svg)
+[![alt artboard 1](/rktpi/svg/artboard_1.svg)](/rktpi/svg/artboard_1.svg)
 
 https://github.com/thetanil/svg_play/blob/master/circle_wiggle_path.py
 
