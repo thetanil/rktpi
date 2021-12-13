@@ -22,8 +22,8 @@ jobs:
 
       - name: Installation - *nix
         run: |
-          python -m pip install --upgrade pip
-          python -m venv .venv
+          python3 -m pip install --upgrade pip
+          python3 -m venv .venv
           ./.venv/Scripts/activate
           export LD_LIBRARY_PATH=${HOME}/dependencies/lib:$LD_LIBRARY_PATH
           export TA_LIBRARY_PATH=${HOME}/dependencies/lib
