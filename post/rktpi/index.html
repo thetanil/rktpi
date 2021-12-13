@@ -34,7 +34,7 @@
 <h2 id=features>Features</h2>
 <ul>
 <li>A guard computer for your phone</li>
-<li>A translator of documents</li>
+<li>A transformer of documents</li>
 <li>An internet filtered of garbage</li>
 <li>A path out of the cloud</li>
 <li>Keep your own email, back it up EZ</li>
@@ -69,14 +69,14 @@
 <h5 id=rocket-pi-motto-1-invent-nothing>Rocket Pi Motto #1: Invent Nothing</h5>
 <p>Use well known reliable software everywhere possible.
 SMTP, DNS, OpenSSH</p>
-<p>Any turn in a card game or board game can be represented as a state, and a choice of moves
-hidden state can be shared by receiving a list of signed item hashes and returning a signed hash of the permutation to be checked at end of game
+<p>Any turn in a card game or board game can be represented as a state, and a choice of moves</p>
+<h5 id=shuffle-2p>Shuffle 2p</h5>
+<p>hidden state can be shared by receiving a list of signed item hashes and returning a signed hash of the permutation to be checked at end of game
 State hidden from both players and next_item messages pop next hash from opponent
 Like a deck of cards, you know WHAT is in the pile, you just don&rsquo;t know the order
 You must ask your opponent what the next item is, but they are drawing blind
 By popping all items from your opponent you can verify the shuffle hash
 or make all shuffle indexes strictly monotonic increasing (the shuffle is the sorted signed hashes returned)</p>
-<h5 id=shuffle-2p>Shuffle 2p</h5>
 <h5 id=dice-roll-2p>Dice Roll 2p</h5>
 <ul>
 <li>generate random[n] for n dice rolls</li>
@@ -123,7 +123,7 @@ state = apply previous state, m1</p>
 <h5 id=fmailclient>fmail.client</h5>
 <ul>
 <li>can be made by anyone</li>
-<li>connects to an email account</li>
+<li>connects to an email account (raw access to maildir)</li>
 <li>app notifications via IMAP notifications</li>
 <li>&ldquo;official&rdquo; is reference no-JS web app running on pi</li>
 <li><a href=https://keys.openpgp.org/about/faq>https://keys.openpgp.org/about/faq</a></li>
@@ -135,6 +135,23 @@ state = apply previous state, m1</p>
 <li>pi generates unique ID -> request(id, IPv4/6) -> get domain.rktpi unique to that device</li>
 </ul>
 <h2 id=mvp-for-ge>MVP for GE</h2>
+<h3 id=required-packages>Required Packages</h3>
+<ul>
+<li>Postfix</li>
+<li>Caddy</li>
+<li>Custom: configure caddy to read a maildir
+<ul>
+<li>plugins registered by some service manager</li>
+<li>addons register their own web services and request document access</li>
+</ul>
+</li>
+<li>Custom: register postfix MX or dyndns like <a href=https://www.duckdns.org/spec.jsp>DuckDNS</a>
+<ul>
+<li>User at pi prompt triggers signed email with current IP to <a href=mailto:ddns@rktpi.com>ddns@rktpi.com</a></li>
+<li><a href=mailto:ddns@rktpi.com>ddns@rktpi.com</a> updates A and MX records</li>
+</ul>
+</li>
+</ul>
 <h3 id=synced-to-existing-mail>Synced to Existing Mail</h3>
 <p>Possible tools:</p>
 <ul>
@@ -143,25 +160,23 @@ state = apply previous state, m1</p>
 </ul>
 <h3 id=caddy>Caddy</h3>
 <h3 id=direct-delivery-postfix>Direct Delivery Postfix</h3>
-<p>MUST ONLY ACCEPT:
-mail for own recipients (local mailbox, NO RELAY)
-mail encrypted with recipient public key
-mail encrypted (signed) by verified sender -> file in mail directory
-mail signed by unknown sender -> new contacts, user interaction required</p>
+<p>MUST ONLY ACCEPT:</p>
+<ul>
+<li>mail for own recipients (local mailbox, NO RELAY)</li>
+<li>mail encrypted with recipient public key</li>
+<li>mail encrypted (signed) by verified sender -> file in mail directory</li>
+<li>mail signed by unknown sender -> new contacts, user interaction required</li>
+</ul>
 <p>offer something like: <a href=https://protonmail.com/support/knowledge-base/transitioning-from-gmail-to-protonmail/>ProtonMail&rsquo;s Easy Switch</a></p>
 <p>Skip DNS Zone Replication
 Provide SMTP service which sends a signed encrypted email which updates user specific MX record only
 <a href=https://imapsync.lamiral.info/FAQ.d/FAQ.Folders_Selection.txt>Each app syncs own folder?</a></p>
 <p>
 <figure>
-<img src=/rktpi/svg/rktpi.svg alt="alt rktpi">
-</figure>
-</p>
-<p>
-<figure>
 <img src=/rktpi/svg/rktpi.drawio.svg alt="alt drawio">
 </figure>
 </p>
+<p><a href=/rktpi/post/artboard>artboards</a></p>
 </div>
 </article>
 </main>
@@ -172,6 +187,7 @@ Provide SMTP service which sends a signed encrypted email which updates user spe
 </div>
 <div>
 <ul>
+<li><a href=/rktpi/post/artboard/>Artboard</a></li>
 <li><a href=/rktpi/post/rktpi/>rktpi</a></li>
 <li><a href=/rktpi/post/ci/>CI (continuous integration)</a></li>
 </ul>
