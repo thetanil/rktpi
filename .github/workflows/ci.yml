@@ -8,11 +8,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [self-hosted]
-        python-version: [3.8]
+    runs-on: [self-hosted]
 
     steps:
       - uses: actions/checkout@v2
@@ -20,21 +16,17 @@ jobs:
       - name: Install build tools
         run: sudo apt-get install -y build-essential python3.6 python3-pip python3-venv
 
+      - name: Install rabbitmq
+        run: sudo apt-get install -y rabbitmq-server librabbitmq4 librabbitmq-dev
+
       - name: Installation - *nix
         run: |
           python3 -m pip install --upgrade pip
-          # python3 -m venv .venv
           export LD_LIBRARY_PATH=${HOME}/dependencies/lib:$LD_LIBRARY_PATH
           export TA_LIBRARY_PATH=${HOME}/dependencies/lib
           export TA_INCLUDE_PATH=${HOME}/dependencies/include
-          # export VIRTUAL_ENV="/home/pi/.rktpi/.venv"
-          # export PATH="$VIRTUAL_ENV/bin:$PATH"
-          echo `which pip3`
-          pip3 install -r requirements.txt
+          python3 -m pip install -r requirements.txt
           # pip install -e . # Install a project in editable mode (i.e. setuptools "develop mode")
-
-      - name: Install rabbitmq
-        run: sudo apt-get install -y rabbitmq-server librabbitmq4 librabbitmq-dev
 
       - name: Run tests with pytest # runci
         run: pytest
