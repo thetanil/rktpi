@@ -8,11 +8,34 @@ on:
 
 jobs:
   deploy:
-    # runs-on: ubuntu-20.04
-    runs-on: self-hosted
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [self-hosted]
+        python-version: [3.8]
+
     steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Installation - *nix
+        run: |
+          python -m pip install --upgrade pip
+          export LD_LIBRARY_PATH=${HOME}/dependencies/lib:$LD_LIBRARY_PATH
+          export TA_LIBRARY_PATH=${HOME}/dependencies/lib
+          export TA_INCLUDE_PATH=${HOME}/dependencies/include
+          pip install -r requirements-dev.txt
+          pip install -e .
+
       - name: Install build tools
         run: sudo apt-get install -y build-essential
 
       - name: Install rabbitmq
         run: sudo apt-get install -y rabbitmq-server librabbitmq4 librabbitmq-dev
+
+      - name: Run tests with pytest
+        run: pytest
