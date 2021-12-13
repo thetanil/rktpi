@@ -27,7 +27,7 @@ Your data in your home. Your safe space near the Internet.
 ## Features
 
 - A guard computer for your phone
-- A translator of documents
+- A transformer of documents
 - An internet filtered of garbage
 - A path out of the cloud
 - Keep your own email, back it up EZ
@@ -62,15 +62,15 @@ Use well known reliable software everywhere possible.
 SMTP, DNS, OpenSSH
 
 Any turn in a card game or board game can be represented as a state, and a choice of moves
+
+##### Shuffle 2p
+
 hidden state can be shared by receiving a list of signed item hashes and returning a signed hash of the permutation to be checked at end of game
 State hidden from both players and next_item messages pop next hash from opponent
 Like a deck of cards, you know WHAT is in the pile, you just don't know the order
 You must ask your opponent what the next item is, but they are drawing blind
 By popping all items from your opponent you can verify the shuffle hash
 or make all shuffle indexes strictly monotonic increasing (the shuffle is the sorted signed hashes returned)
-
-##### Shuffle 2p
-
 
 ##### Dice Roll 2p
 - generate random[n] for n dice rolls
@@ -112,12 +112,6 @@ state = apply previous state, m1
 P1 -> P2 m2p1 = state, sig(hash(paper, game_id, turn#, state))
 
 
-
-
-
-
-
-
 First Cheat Free Simultaneous selection multiplayer FMAIL based game engine
 
 ### What is fmail
@@ -129,7 +123,7 @@ fmail is just an extremely restrictive and prescriptive subset of email
 
 ##### fmail.client
 - can be made by anyone
-- connects to an email account
+- connects to an email account (raw access to maildir)
 - app notifications via IMAP notifications
 - "official" is reference no-JS web app running on pi
 - https://keys.openpgp.org/about/faq
@@ -143,6 +137,17 @@ fmail is just an extremely restrictive and prescriptive subset of email
 
 ## MVP for GE
 
+### Required Packages
+- Postfix
+- Caddy
+- Custom: configure caddy to read a maildir
+  - plugins registered by some service manager
+  - addons register their own web services and request document access
+- Custom: register postfix MX or dyndns like [DuckDNS](https://www.duckdns.org/spec.jsp)
+  - User at pi prompt triggers signed email with current IP to ddns@rktpi.com
+  - ddns@rktpi.com updates A and MX records
+
+
 ### Synced to Existing Mail
 
 Possible tools:
@@ -154,10 +159,10 @@ Possible tools:
 ### Direct Delivery Postfix
 
 MUST ONLY ACCEPT:
-mail for own recipients (local mailbox, NO RELAY)
-mail encrypted with recipient public key
-mail encrypted (signed) by verified sender -> file in mail directory
-mail signed by unknown sender -> new contacts, user interaction required
+- mail for own recipients (local mailbox, NO RELAY)
+- mail encrypted with recipient public key
+- mail encrypted (signed) by verified sender -> file in mail directory
+- mail signed by unknown sender -> new contacts, user interaction required
 
 offer something like: [ProtonMail's Easy Switch](https://protonmail.com/support/knowledge-base/transitioning-from-gmail-to-protonmail/)
 
@@ -165,9 +170,10 @@ Skip DNS Zone Replication
 Provide SMTP service which sends a signed encrypted email which updates user specific MX record only
 [Each app syncs own folder?](https://imapsync.lamiral.info/FAQ.d/FAQ.Folders_Selection.txt)
 
-![alt rktpi](/rktpi/svg/rktpi.svg)
-
 ![alt drawio](/rktpi/svg/rktpi.drawio.svg)
+
+[artboards](/rktpi/post/artboard)
+
 
 
 

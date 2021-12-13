@@ -1,0 +1,18 @@
+name: ci
+
+on:
+  push:
+    branches:
+      - main # Set a branch to deploy asd
+  pull_request:
+
+jobs:
+  deploy:
+    # runs-on: ubuntu-20.04
+    runs-on: self-hosted
+    steps:
+      - name: Install build tools
+        run: sudo apt-get install -y build-essential
+
+      - name: Install rabbitmq
+        run: sudo apt-get install -y rabbitmq-server librabbitmq4 librabbitmq-dev
