@@ -17,8 +17,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Set up Python
-        uses: actions/setup-python@v1
+      - name: Install build tools
+        run: sudo apt-get install -y build-essential python3.6
 
       - name: Installation - *nix
         run: |
@@ -28,9 +28,6 @@ jobs:
           export TA_INCLUDE_PATH=${HOME}/dependencies/include
           pip install -r requirements-dev.txt
           pip install -e .
-
-      - name: Install build tools
-        run: sudo apt-get install -y build-essential
 
       - name: Install rabbitmq
         run: sudo apt-get install -y rabbitmq-server librabbitmq4 librabbitmq-dev
