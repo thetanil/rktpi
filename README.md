@@ -6,6 +6,8 @@ a way to move out of the cloud
 
 [![build docs](https://github.com/thetanil/rktpi/actions/workflows/hugo.yml/badge.svg)](https://github.com/thetanil/rktpi/actions/workflows/hugo.yml)
 
+[![ci](https://github.com/thetanil/rktpi/actions/workflows/ci.yml/badge.svg)](https://github.com/thetanil/rktpi/actions/workflows/ci.yml)
+
 
 ## hugo
 
