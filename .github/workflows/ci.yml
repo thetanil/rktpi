@@ -37,5 +37,5 @@ jobs:
       - name: Install rabbitmq
         run: sudo apt-get install -y rabbitmq-server librabbitmq4 librabbitmq-dev
 
-      - name: Run tests with pytest
+      - name: Run tests with pytest # runci
         run: pytest
