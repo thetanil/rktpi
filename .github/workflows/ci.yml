@@ -22,13 +22,13 @@ jobs:
 
       - name: Installation - *nix
         run: |
+          mkdir -p /home/pi/.rktpi
+          cd /home/pi/.rktpi
           python3 -m pip install --upgrade pip
           python3 -m venv .venv
-          source .venv/bin/activate
           export LD_LIBRARY_PATH=${HOME}/dependencies/lib:$LD_LIBRARY_PATH
           export TA_LIBRARY_PATH=${HOME}/dependencies/lib
           export TA_INCLUDE_PATH=${HOME}/dependencies/include
-          mkdir -p /home/pi/.rktpi
           export VIRTUAL_ENV="/home/pi/.rktpi/.venv"
           export PATH="$VIRTUAL_ENV/bin:$PATH"
           echo `which pip`
