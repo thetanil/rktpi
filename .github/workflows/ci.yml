@@ -24,7 +24,7 @@ jobs:
         run: |
           python3 -m pip install --upgrade pip
           python3 -m venv .venv
-          ./.venv/Scripts/activate
+          source .venv/bin/activate
           export LD_LIBRARY_PATH=${HOME}/dependencies/lib:$LD_LIBRARY_PATH
           export TA_LIBRARY_PATH=${HOME}/dependencies/lib
           export TA_INCLUDE_PATH=${HOME}/dependencies/include
