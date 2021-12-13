@@ -25,7 +25,4 @@ https://github.com/birjolaxew/svglint
 
 https://github.com/hogesonline/svg_play
 
-
-
-
 ![alt artboard 1](/rktpi/svg/artboard_1.svg)
