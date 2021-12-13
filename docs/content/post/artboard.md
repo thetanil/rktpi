@@ -17,6 +17,8 @@ aliases:
 draft: false
 ---
 
+![alt artboard 1](/rktpi/svg/artboard_1.svg)
+
 https://github.com/thetanil/svg_play/blob/master/circle_wiggle_path.py
 
 https://www.creativebloq.com/how-to/add-animation-to-svg-with-css
@@ -24,5 +26,3 @@ https://www.creativebloq.com/how-to/add-animation-to-svg-with-css
 https://github.com/birjolaxew/svglint
 
 https://github.com/hogesonline/svg_play
-
-![alt artboard 1](/rktpi/svg/artboard_1.svg)
