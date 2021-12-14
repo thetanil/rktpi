@@ -19,6 +19,8 @@ draft: false
 
 [![alt artboard 1](/rktpi/svg/artboard_1.svg)](/rktpi/svg/artboard_1.svg)
 
+[![alt artboard 2](/rktpi/svg/artboard_2.svg)](/rktpi/svg/artboard_2.svg)
+
 https://github.com/thetanil/svg_play/blob/master/circle_wiggle_path.py
 
 https://www.creativebloq.com/how-to/add-animation-to-svg-with-css

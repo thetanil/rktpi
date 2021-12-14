@@ -20,7 +20,7 @@ jobs:
             python3.6 python3-pip python3-venv \
             rabbitmq-server librabbitmq4 librabbitmq-dev
 
-      - name: Installation - *nix
+      - name: Installation python packages
         run: |
           python3 -m pip install --upgrade pip
           # export LD_LIBRARY_PATH=${HOME}/dependencies/lib:$LD_LIBRARY_PATH
