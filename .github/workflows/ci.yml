@@ -14,18 +14,18 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Install build tools
-        run: sudo apt-get install -y build-essential python3.6 python3-pip python3-venv
+        run: sudo apt-get install -y build-essential cmake libtool autoconf python3.6 python3-pip python3-venv
 
       - name: Install rabbitmq
         run: sudo apt-get install -y rabbitmq-server librabbitmq4 librabbitmq-dev
 
       - name: Installation - *nix
         run: |
-          python3 -m pip install -U --upgrade pip
+          python3 -m pip install --upgrade pip
           export LD_LIBRARY_PATH=${HOME}/dependencies/lib:$LD_LIBRARY_PATH
           export TA_LIBRARY_PATH=${HOME}/dependencies/lib
           export TA_INCLUDE_PATH=${HOME}/dependencies/include
-          python3 -m pip install --no-cache-dir -U -r requirements.txt
+          python3 -m pip install --no-cache-dir -r requirements.txt
           # pip install -e . # Install a project in editable mode (i.e. setuptools "develop mode")
 
       # TEST
