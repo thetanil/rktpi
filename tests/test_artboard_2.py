@@ -14,7 +14,7 @@ def draw_line(
     top_left_y,
     sw,
     sym=False,
-    color="black",
+    color="blue",
 ):
     """returns the svg xml for the line
     Params:
