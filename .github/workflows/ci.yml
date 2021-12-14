@@ -13,11 +13,12 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Install build tools
-        run: sudo apt-get install -y build-essential cmake libtool autoconf python3.6 python3-pip python3-venv
-
-      - name: Install rabbitmq
-        run: sudo apt-get install -y rabbitmq-server librabbitmq4 librabbitmq-dev
+      - name: Install apt packages
+        run: |
+          sudo apt-get install -y \
+            build-essential cmake libtool autoconf \
+            python3.6 python3-pip python3-venv \
+            rabbitmq-server librabbitmq4 librabbitmq-dev
 
       - name: Installation - *nix
         run: |
