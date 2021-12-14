@@ -14,7 +14,7 @@ def draw_line(
     top_left_y,
     sw,
     sym=False,
-    color="blue",
+    color="black",
 ):
     """returns the svg xml for the line
     Params:
@@ -93,7 +93,7 @@ def make_tiles(size, tiles, image_size, sw=1):
 
     tile_size = image_size / tiles
     padding = image_size / tiles / 2
-    padding = 80
+    padding = 0
     sections = size
     for row in range(tiles):
         for column in range(tiles):
@@ -160,5 +160,5 @@ def make_tiles(size, tiles, image_size, sw=1):
 
 def test_artboard_1():
     with open("docs/static/svg/artboard_1.svg", "w") as the_file:
-        values = make_tiles(10, 4, 1000, sw=3)
-        the_file.write("\n".join(values))
+        values = make_tiles(10, 10, 1000, sw=2)
+        the_file.write("".join(values))
