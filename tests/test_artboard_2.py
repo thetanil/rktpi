@@ -158,7 +158,7 @@ def make_tiles(size, tiles, image_size, sw=1):
     return output
 
 
-def test_artboard_1():
+def test_artboard_2():
     with open("docs/static/svg/artboard_2.svg", "w") as the_file:
         values = make_tiles(10, 10, 1000, sw=2)
         the_file.write("".join(values))
