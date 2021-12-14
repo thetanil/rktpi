@@ -21,11 +21,11 @@ jobs:
 
       - name: Installation - *nix
         run: |
-          python3 -m pip install --upgrade pip
+          python3 -m pip install -U --upgrade pip
           export LD_LIBRARY_PATH=${HOME}/dependencies/lib:$LD_LIBRARY_PATH
           export TA_LIBRARY_PATH=${HOME}/dependencies/lib
           export TA_INCLUDE_PATH=${HOME}/dependencies/include
-          python3 -m pip install -r requirements.txt
+          python3 -m pip install -U -r requirements.txt
           # pip install -e . # Install a project in editable mode (i.e. setuptools "develop mode")
 
       # TEST
