@@ -132,6 +132,5 @@ dmypy.json
 # hugo build target
 public/
 docs/resources/
-docs/static/svg/artboard**
 
 .hugo_build.lock
