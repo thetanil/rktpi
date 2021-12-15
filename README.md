@@ -17,6 +17,7 @@ windows elevated cmd prompt -
         hugo new site .
         git clone --depth 1 https://github.com/leonstafford/accessible-minimalism-hugo-theme themes/min
 
+[using WSL for isolated dev env on windows tablet](https://websiteforstudents.com/how-to-install-debian-on-windows-wsl/)
 
 hugo generates more complex site in 17s vs 1 page for 1+ minute for pelican 
 
