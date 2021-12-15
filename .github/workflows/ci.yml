@@ -30,6 +30,23 @@ jobs:
           python3 -m pip install -r requirements.txt
           # pip install -e . # Install a project in editable mode (i.e. setuptools "develop mode")
 
+      - name: Configure and Restart Celery
+        run: |
+          echo "TODO: Configure and Restart Celery"
+
+      - name: Configure and Broker API for Flower access
+        run: |
+          echo "TODO: Configure Broker API for Flower"
+          echo "https://flower.readthedocs.io/en/latest/config.html#broker-api"
+
+      - name: Configure and Restart Flower
+        run: |
+          echo "TODO: Configure and Restart Flower"
+
+      - name: Install caddy
+        run: |
+          echo "TODO: Install Caddy"
+
       # TEST
 
       - name: Run tests with pytest # run ci
