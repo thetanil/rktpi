@@ -35,6 +35,7 @@ jobs:
           echo "TODO: Configure and Restart Celery"
           echo "https://docs.celeryproject.org/en/stable/userguide/daemonizing.html#usage-systemd"
           echo PWD: $PWD
+          cat ./config/test.txt
 
       - name: Configure and Broker API for Flower access
         run: |
