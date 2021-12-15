@@ -24,6 +24,32 @@
 </header>
 <main>
 <article>
+<h1><a href=https://thetanil.github.io/rktpi/post/docs/>Docs</a></h1>
+<b><time>15.12.2021 12:21</time></b>
+<a href=/rktpi/tags/markdown>markdown</a>
+<a href=/rktpi/tags/css>css</a>
+<a href=/rktpi/tags/html>html</a>
+<div>
+Documentation is generated using Hugo. Using the package provided by raspbian apt.
+Running Hugo from within the docs/ directory should build everything.
+There is a CI Task which generates the site and deploys to gh-pages on each commit to main
+</div>
+</article>
+<article>
+<h1><a href=https://thetanil.github.io/rktpi/post/celery/>Celery</a></h1>
+<b><time>15.12.2021 12:20</time></b>
+<a href=/rktpi/tags/markdown>markdown</a>
+<a href=/rktpi/tags/css>css</a>
+<a href=/rktpi/tags/html>html</a>
+<div>
+Celery and RabbitMQ Server are installed by the CI script.
+A set of test tasks will generate a thorough test to excersise the system on each startup
+This should give a good target for baseline utilization. Redis is still on the table as a broker and store. amqp and rpc are used now as recommended in the celery docs.
+currently add task is working from demo need to deploy a systemd script to start celery and rabbitmq server.
+<a href=https://thetanil.github.io/rktpi/post/celery/>Read more...</a>
+</div>
+</article>
+<article>
 <h1><a href=https://thetanil.github.io/rktpi/post/artboard/>Artboard</a></h1>
 <b><time>13.12.2021 12:21</time></b>
 <a href=/rktpi/tags/markdown>markdown</a>
