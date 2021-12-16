@@ -158,7 +158,31 @@ def make_tiles(size, tiles, image_size, sw=1):
     return output
 
 
+svg_wrapper = """\
+<svg
+xmlns="http://www.w3.org/2000/svg" 
+xml:lang="en" 
+xmlns:xlink="http://www.w3.org/1999/xlink"
+viewBox="0 0 1000 1000" 
+width="1000">
+<rect 
+    id="background" 
+    x="0" 
+    y="0" 
+    width="500" 
+    height="500" 
+    fill="{{ layout.color.background if layout else 'lightblue'}}" 
+    />
+{{groups}}
+</svg>
+"""
+
+
 def test_artboard_2():
+    import jinja2
+
+    tmpl = jinja2.Template(svg_wrapper)
+
     with open("docs/static/svg/artboard_2.svg", "w") as the_file:
-        values = make_tiles(10, 10, 1000, sw=2)
-        the_file.write("".join(values))
+        # values = make_tiles(10, 10, 1000, sw=2)
+        the_file.write(tmpl.render())

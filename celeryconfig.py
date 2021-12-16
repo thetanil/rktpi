@@ -15,7 +15,7 @@ timezone = "Europe/Berlin"
 enable_utc = True
 
 # For Flower
-address = "192.168.0.37"
+# address = "192.168.0.37"
 
 # task_annotations = {"tasks.add": {"rate_limit": "10/m"}}
 # task_annotations = {"tasks.add": {"rate_limit": "10/m"}}
