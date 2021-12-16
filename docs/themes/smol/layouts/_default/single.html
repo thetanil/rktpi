@@ -1,16 +1,30 @@
 {{ define "main" }}
-	<main>
-		<article>
-			<h1>{{ .Title }}</h1>
-			<b><time>{{ .Date.Format (default "2006-01-02 15:04:05" .Site.Params.dateFmt) }}</time></b>
-		       {{ range .Params.tags }}
-		           <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
-        	       {{ end }}
+<main>
+	<!-- <div class="bg">&nbsp;</div>
+	<style>
+		.bg {
+			/* width: 100vw; */
+			background: url(/rktpi/svg/artboard_2.svg);
+			background-color: blueviolet;
+			background-size: cover;
+			background-position: center;
+			/* background-attachment: fixed; */
+			min-height: 10rem;
+			/* min-width: 100vw; */
+			/* margin-left: 0; */
+		}
+	</style> -->
+	<article>
+		<h1>{{ .Title }}</h1>
+		<b><time>{{ .Date.Format (default "2006-01-02 15:04:05" .Site.Params.dateFmt) }}</time></b>
+		{{ range .Params.tags }}
+		<a href="{{ " /tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+		{{ end }}
 
-			<div>
-				{{ .Content }}
-			</div>
-		</article>
-	</main>
+		<div>
+			{{ .Content }}
+		</div>
+	</article>
+</main>
 {{ partial "sidebar.html" . }}
 {{ end }}
