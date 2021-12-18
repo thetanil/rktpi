@@ -28,3 +28,9 @@ need to [deploy a systemd script](https://docs.celeryproject.org/en/stable/userg
 
 [Flower](https://flower.readthedocs.io/en/latest/install.html) is recommended but check what resources it would take
 - [Running Flower under own Daemon](https://stackoverflow.com/questions/13579047/celery-flower-as-daemon)
+
+
+        Configuration is a pain in the ass.
+        Extra servers are a pain in the ass.
+        Celery Performance is pretty meh.
+        Checking out [NSQ](https://pynsq.readthedocs.io/en/latest/reader.html)

@@ -1,3 +1,6 @@
+dev:
+	hypercorn rktpi.main:app --reload
+	
 server:
 	celery -A tasks worker --loglevel=INFO
 
@@ -19,3 +22,16 @@ update:
 	ansible-galaxy install fubarhouse.golang
 	# https://github.com/fubarhouse/ansible-role-golang
 	ansible-playbook ansible/main.yml
+
+nsq:
+	../nsq/apps/nsqlookupd/nsqlookupd &
+	../nsq/apps/nsqd/nsqd --lookupd-tcp-address=127.0.0.1:4160 --verbose &
+	../nsq/apps/nsqadmin/nsqadmin --lookupd-http-address=127.0.0.1:4161 &
+
+nsqkill:
+	pkill nsqadmin
+	pkill nsqd
+	pkill nsqlookupd
+
+nsqmsg:
+	curl -d 'hello world 1' 'http://127.0.0.1:4151/pub?topic=test'

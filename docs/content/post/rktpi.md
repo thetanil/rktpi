@@ -174,8 +174,30 @@ Provide SMTP service which sends a signed encrypted email which updates user spe
 
 [artboards](/rktpi/post/artboard)
 
+# 2 weeks in (vacation)
 
+Java solutions will not be considered due to memory availability on the device.
 
+### reliable stack
+- bind
+- nginx
+- celery + rabbit/redis
+
+### low resource stack
+- [coreDNS](https://coredns.io/)
+- caddy
+- [NSQ](https://nsq.io/) [quickstart](https://nsq.io/overview/quick_start.html)
+
+2021.12.17 - Benchmarking NSQ. Celery is at 740MB used and < 100 msg/sec and requires extra servers.
+
+- ansible install golang https://github.com/fubarhouse/ansible-role-golang
+- [pynsq docs](https://pynsq.readthedocs.io/en/latest/reader.html)
+- [ansible docs](https://docs.ansible.com/ansible/2.8/user_guide/playbooks_best_practices.html)
+
+No Comparison here really, this is way better, memory usage at 500MB during 21mb/s throughput.
+
+    PUB: [bench_writer] 2021/12/17 09:09:52 duration: 10.043130334s - 21.328mb/s - 111817.726ops/s - 8.943us/op
+    SUB: [bench_reader] 2021/12/17 09:10:02 duration: 10.006693747s - 13.754mb/s - 72109.532ops/s - 13.868us/op
 
 
 
