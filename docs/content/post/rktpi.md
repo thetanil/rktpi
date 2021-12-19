@@ -179,14 +179,17 @@ Provide SMTP service which sends a signed encrypted email which updates user spe
 Java solutions will not be considered due to memory availability on the device.
 
 ### reliable stack
+- webapp in fastapi
+- nginx (maybe caddy for dynamic config later?)
+- postgres (store and msg)
 - bind
-- nginx
-- celery + rabbit/redis
+- postfix
 
 ### low resource stack
 - [coreDNS](https://coredns.io/)
 - caddy
 - [NSQ](https://nsq.io/) [quickstart](https://nsq.io/overview/quick_start.html)
+- pynsq is a mess and I didn't like it at all (cancelled)
 
 2021.12.17 - Benchmarking NSQ. Celery is at 740MB used and < 100 msg/sec and requires extra servers.
 
