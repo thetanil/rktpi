@@ -37,6 +37,7 @@ Your data in your home. Your safe space near the Internet.
   - No JS, just enough CSS to unify browsers, there is no ad network
   - No colors, user theme-able viewer
   - Gemini with markdown and pictures
+  - Target 3G full page renders under 200ms (not including images)
 - Has to may may
   - but with SVG
   - they can be big [think HighQualityGifs](https://www.reddit.com/r/HighQualityGifs/)
@@ -214,4 +215,4 @@ doesn't work with asyncio you have to use tornado
 
 {{< svg "test.svg" >}}
 
-{{< svg "spinner.svg" >}}{{< svg "spinner.svg" >}}{{< svg "spinner.svg" >}}{{< svg "spinner.svg" >}}
+{{< svg "spinner.svg" >}}
