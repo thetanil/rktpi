@@ -103,11 +103,9 @@ def more_circles(count: int) -> str:
 #     />
 #     """.format(**d)
 
-# import typing.List
-# import typing.Tuple
 
-# def is_valid(c: Tuple[int,int,int], list: List[Tuple[int,int,int]]):
-#     pass
+def is_valid(c, list):
+    pass
 
 
 def packed_circles(
@@ -127,8 +125,8 @@ def packed_circles(
             random.randrange(ymin, ymax, 1),
             random.randrange(rmin, rmax, 1),
         )
-        # if is_valid(possible, circles):
-        #     circles.append(possible)
+        if is_valid(possible, circles):
+            circles.append(possible)
 
     for i in range(max_count):
         possible = circle(
@@ -143,7 +141,7 @@ def packed_circles(
 
 def lines():
     # TODO: add symmetry and repetition
-    q1 = {"fill": "red"}
+    # q1 = {"fill": "red"}
     return (
         f"{svg_head(width=800)}"
         # f'{qcircle()}'
