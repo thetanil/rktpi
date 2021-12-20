@@ -169,12 +169,76 @@ width="1000">
     id="background" 
     x="0" 
     y="0" 
-    width="500" 
-    height="500" 
+    width="50" 
+    height="50" 
     fill="{{ layout.color.background if layout else 'lightblue'}}" 
     />
+
+<circle cx="50" cy="50" r="40" stroke="lightblue" stroke-width="4" fill="lightyellow" />
+<circle cx="100" cy="100" r="60" stroke="purple" stroke-width="8" fill="orange" fill-opacity="0.4" stroke-opacity="0.4"/>
+
+<path fill="none" stroke="red" stroke-opacity="0.3" stroke-width="4" d="M20,0 a20,20 0 0,1 20,20" />
+
 {{groups}}
 </svg>
+"""
+
+# https://github.com/d3/d3-3.x-api-reference/blob/master/Ordinal-Scales.md
+""" 20b - high sat
+393b79 #393b79
+5254a3 #5254a3
+6b6ecf #6b6ecf
+9c9ede #9c9ede
+637939 #637939
+8ca252 #8ca252
+b5cf6b #b5cf6b
+cedb9c #cedb9c
+8c6d31 #8c6d31
+bd9e39 #bd9e39
+e7ba52 #e7ba52
+e7cb94 #e7cb94
+843c39 #843c39
+ad494a #ad494a
+d6616b #d6616b
+e7969c #e7969c
+7b4173 #7b4173
+a55194 #a55194
+ce6dbd #ce6dbd
+de9ed6 #de9ed6
+"""
+
+# https://github.com/d3/d3-3.x-api-reference/blob/master/Ordinal-Scales.md
+""" category20c - lower sat
+3182bd #3182bd
+6baed6 #6baed6
+9ecae1 #9ecae1
+c6dbef #c6dbef
+e6550d #e6550d
+fd8d3c #fd8d3c
+fdae6b #fdae6b
+fdd0a2 #fdd0a2
+31a354 #31a354
+74c476 #74c476
+a1d99b #a1d99b
+c7e9c0 #c7e9c0
+756bb1 #756bb1
+9e9ac8 #9e9ac8
+bcbddc #bcbddc
+dadaeb #dadaeb
+636363 #636363
+969696 #969696
+bdbdbd #bdbdbd
+d9d9d9 #d9d9d9
+"""
+
+# https://colorbrewer2.org/#type=diverging&scheme=RdYlBu&n=6
+""" cat6 
+#d73027
+#fc8d59
+#fee090
+#e0f3f8
+#91bfdb
+#4575b4
 """
 
 
@@ -186,3 +250,14 @@ def test_artboard_2():
     with open("docs/static/svg/artboard_2.svg", "w") as the_file:
         # values = make_tiles(10, 10, 1000, sw=2)
         the_file.write(tmpl.render())
+
+
+def test_artboard_test():
+    import jinja2
+
+    tmpl = jinja2.Template(svg_wrapper)
+
+    with open("docs/content/svg/test.svg", "w") as the_file:
+        # values = make_tiles(10, 10, 1000, sw=2)
+        the_file.write(tmpl.render())
+

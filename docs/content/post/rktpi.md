@@ -170,7 +170,7 @@ Skip DNS Zone Replication
 Provide SMTP service which sends a signed encrypted email which updates user specific MX record only
 [Each app syncs own folder?](https://imapsync.lamiral.info/FAQ.d/FAQ.Folders_Selection.txt)
 
-![alt drawio](/rktpi/svg/rktpi.drawio.svg)
+    ![alt drawio](/rktpi/svg/rktpi.drawio.svg)
 
 [artboards](/rktpi/post/artboard)
 
@@ -202,8 +202,16 @@ No Comparison here really, this is way better, memory usage at 500MB during 21mb
     PUB: [bench_writer] 2021/12/17 09:09:52 duration: 10.043130334s - 21.328mb/s - 111817.726ops/s - 8.943us/op
     SUB: [bench_reader] 2021/12/17 09:10:02 duration: 10.006693747s - 13.754mb/s - 72109.532ops/s - 13.868us/op
 
+But for me it's essentially unusable. the pynsq wrapper is not documented well. it's barely a wrapper
+since you have to handle tornado yourself.
+you get half a wrapper integrated with a tornado instance where you have to integrate your own CBs
+doesn't work with asyncio you have to use tornado
 
 
 
 
+{{< svg "test.drawio.svg" >}}
 
+{{< svg "test.svg" >}}
+
+{{< svg "spinner.svg" >}}{{< svg "spinner.svg" >}}{{< svg "spinner.svg" >}}{{< svg "spinner.svg" >}}
