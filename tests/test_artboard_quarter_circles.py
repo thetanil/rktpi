@@ -70,8 +70,8 @@ def style():
     )
 
 def more_circles(count: int):
-    min_r = 20
-    max_r = 80
+    min_r = 50
+    max_r = 120
     w = 1000
     h = 1000
     ret =''
@@ -106,7 +106,7 @@ def lines():
         # f'{qcircle()}'
         # f'{circle_quart(q1)}'
         # f'{circle(10, 10, 10, style())}'
-        f'{more_circles(250)}'
+        f'{more_circles(150)}'
         f'{svg_foot()}'
     )
 
