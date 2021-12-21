@@ -17,6 +17,9 @@ def svg_head(
         <filter id='shadow' color-interpolation-filters="sRGB">
             <feDropShadow dx="2" dy="2" stdDeviation="2" flood-opacity="0.4"/>
         </filter>
+        <filter id='shadow2' color-interpolation-filters="sRGB">
+            <feDropShadow dx="0" dy="0" stdDeviation="5.5" flood-opacity="0.8"/>
+        </filter>
     """
 
 
@@ -33,6 +36,23 @@ def qcircle():
 
 def circle(cx: int, cy: int, r: float, style: str):
     return f"<circle " f'cx="{cx}" ' f'cy="{cy}" ' f'r="{r}"' f"{style}" f"/>"
+
+
+def get_color2():
+    _colors = """
+        #d73027
+        #f46d43
+        #fdae61
+        #fee090
+        #ffffbf
+        #e0f3f8
+        #abd9e9
+        #74add1
+        #4575b4
+        """
+    colors = [x.strip() for x in _colors.splitlines()]
+    # colors = _colors.splitlines().trim()
+    return colors[random.randrange(0, len(colors))]
 
 
 def get_color():
@@ -85,10 +105,10 @@ def style2():
 
 def style1():
     return (
-        f'fill="{get_color()}" '
+        f'fill="{get_color2()}" '
         f'stroke="none"'
-        f'fill-opacity=".8"'
-        f'filter="url(#shadow)"'
+        f'fill-opacity=".6"'
+        f'filter="url(#shadow2)"'
     )
 
 
@@ -196,12 +216,12 @@ def packed_circles(
 
 
 def packed_circles2(
-    xmin: int = -100,
-    xmax: int = 1060,
-    ymin: int = -100,
-    ymax: int = 1050,
+    xmin: int = 0,
+    xmax: int = 1100,
+    ymin: int = 0,
+    ymax: int = 900,
     rmin: int = 60,
-    rmax: int = 660,
+    rmax: int = 160,
 ) -> str:
     ret = ""
     max_count = 1000000
