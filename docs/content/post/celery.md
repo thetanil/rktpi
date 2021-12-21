@@ -14,7 +14,7 @@ series:
 - World Premier
 aliases:
 - aliased
-draft: false
+draft: true
 ---
 
 Celery and RabbitMQ Server are installed by the CI script.

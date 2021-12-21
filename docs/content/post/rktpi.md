@@ -180,8 +180,8 @@ Provide SMTP service which sends a signed encrypted email which updates user spe
 Java solutions will not be considered due to memory availability on the device.
 
 ### reliable stack
+- [nginx](/rktpi/post/nginx) for (maybe caddy for dynamic config later?)
 - webapp in fastapi
-- nginx (maybe caddy for dynamic config later?)
 - postgres (store and msg)
 - bind
 - postfix
