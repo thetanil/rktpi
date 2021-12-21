@@ -17,7 +17,12 @@ aliases:
 draft: false
 ---
 
-{{< svg "quarter_circles.svg" >}}
+{{< svg "circles01.svg" >}}
+{{< svg "circles02.svg" >}}
+{{< svg "circles03.svg" >}}
+{{< svg "circles04.svg" >}}
+{{< svg "circles05.svg" >}}
+
 
 [![alt artboard 1](/rktpi/svg/artboard_1.svg)](/rktpi/svg/artboard_1.svg)
 
