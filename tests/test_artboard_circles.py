@@ -20,7 +20,9 @@ def svg_head(
         <filter id='shadow2' color-interpolation-filters="sRGB">
             <feDropShadow dx="0" dy="0" stdDeviation="5.5" flood-opacity=".8"/>
         </filter>
-        <g fill="none" stroke="black" stroke-width="4">
+        <g >
+        <rect x="0" y="0" width="100%" height="100%" fill="#ccc"
+                stroke-width="8" stroke="none" />
     """
 
 
@@ -28,11 +30,11 @@ def svg_foot():
     return """</g></svg>"""
 
 
-def qcircle():
-    return """
-    <path fill="none" stroke="green" stroke-opacity="0.3"
-     stroke-width="8" d="M20,0 a20,20 0 0,1 20,20" />
-    """
+# def qcircle():
+#     return """
+#     <path fill="none" stroke="green" stroke-opacity="0.3"
+#      stroke-width="8" d="M20,0 a20,20 0 0,1 20,20" />
+#     """
 
 
 def circle(cx: int, cy: int, r: float, style: str):
