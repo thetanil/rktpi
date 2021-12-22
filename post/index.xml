@@ -2,7 +2,12 @@
 Installation and Base Config Part of the rktpi ansible deployment.
 Nginx as Static Site Server Nginx as Reverse Proxy</description></item><item><title>Docs</title><link>https://thetanil.github.io/rktpi/post/docs/</link><pubDate>Wed, 15 Dec 2021 12:21:17 +0000</pubDate><guid>https://thetanil.github.io/rktpi/post/docs/</guid><description>Documentation is generated using Hugo. Using the package provided by raspbian apt.
 Running Hugo from within the docs/ directory should build everything.
-There is a CI Task which generates the site and deploys to gh-pages on each commit to main</description></item><item><title>Artboard</title><link>https://thetanil.github.io/rktpi/post/artboard/</link><pubDate>Mon, 13 Dec 2021 12:21:15 +0100</pubDate><guid>https://thetanil.github.io/rktpi/post/artboard/</guid><description>spray circles at the canvas add some saturation no overlap rotate repeat (too many objects) zoom, more r and r, new colors Inspired by Amanda Hodges
+There is a CI Task which generates the site and deploys to gh-pages on each commit to main</description></item><item><title>Artboard</title><link>https://thetanil.github.io/rktpi/post/artboard/</link><pubDate>Mon, 13 Dec 2021 12:21:15 +0100</pubDate><guid>https://thetanil.github.io/rktpi/post/artboard/</guid><description>spray circles at the canvas
+add some saturation
+no overlap
+rotate repeat (too many objects)
+zoom, more r and r, new colors
+Inspired by Amanda Hodges
 https://github.com/thetanil/svg_play/blob/master/circle_wiggle_path.py
 https://www.creativebloq.com/how-to/add-animation-to-svg-with-css
 https://github.com/birjolaxew/svglint</description></item><item><title>rktpi</title><link>https://thetanil.github.io/rktpi/post/rktpi/</link><pubDate>Wed, 08 Dec 2021 18:47:08 +0100</pubDate><guid>https://thetanil.github.io/rktpi/post/rktpi/</guid><description>What it is A platform for web apps running on YOUR Pi, with YOUR Data, accessible from YOUR phone.
