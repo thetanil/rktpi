@@ -6,31 +6,32 @@ def svg_head(
     vbymin: int = 0,
     vbw: int = 1000,
     vbh: int = 1000,
-    width: str = "50vw",
+    width: str = 1000,
     height: str = "",
 ):
     return f"""
         <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="{vbxmin} {vbymin} {vbw} {vbh}"
-        width="{width}">
+        width="{width}" stroke="black" stroke-width="4">
         <filter id='shadow' color-interpolation-filters="sRGB">
             <feDropShadow dx="2" dy="2" stdDeviation="2" flood-opacity="0.4"/>
         </filter>
         <filter id='shadow2' color-interpolation-filters="sRGB">
             <feDropShadow dx="0" dy="0" stdDeviation="5.5" flood-opacity=".8"/>
         </filter>
+        <g fill="none" stroke="black" stroke-width="4">
     """
 
 
 def svg_foot():
-    return """</svg>"""
+    return """</g></svg>"""
 
 
 def qcircle():
     return """
-    <path fill="none" stroke="green" stroke-opacity="0.3"
-    stroke-width="8" d="M20,0 a20,20 0 0,1 20,20" />
+    <path fill="none" stroke="green" stroke-opacity="0.3" 
+     stroke-width="8" d="M20,0 a20,20 0 0,1 20,20" />
     """
 
 
@@ -86,38 +87,42 @@ def get_color():
 
 def style3():
     return (
+        f" "
         f'fill="{get_color()}" '
-        f'stroke="none"'
-        f'fill-opacity="0.8"'
-        f'filter="url(#shadow)"'
+        f'stroke="none" '
+        f'fill-opacity="0.8" '
+        f'filter="url(#shadow)" '
     )
 
 
 def style2():
     return (
+        f" "
         f'fill="{get_color()}" '
-        f'stroke="black"'
-        f'fill-opacity="0.4"'
-        f'filter="url(#shadow)"'
-        f'stroke-width="2"'
+        f'stroke="black" '
+        f'fill-opacity="0.4" '
+        f'filter="url(#shadow)" '
+        f'stroke-width="2" '
     )
 
 
 def style1():
     return (
+        f" "
         f'fill="{get_color2()}" '
-        f'stroke="none"'
-        f'fill-opacity=".6"'
-        f'filter="url(#shadow2)"'
+        f'stroke="none" '
+        f'fill-opacity=".6" '
+        f'filter="url(#shadow2)" '
     )
 
 
 def style():
     return (
+        f" "
         f'fill="{get_color()}" '
-        f'stroke="none"'
-        f'fill-opacity="0.8"'
-        f'filter="url(#shadow)"'
+        f'stroke="none" '
+        f'fill-opacity="0.8" '
+        f'filter="url(#shadow)" '
         # f'stroke-width="2"'
     )
 
