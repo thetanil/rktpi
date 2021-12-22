@@ -99,17 +99,25 @@ P2(h1) -> P1, p2
 - Can you play werewolf?
 
 ##### Playing Rock Paper Scissors
+
 game_id = hash(hash(P1.salt), hash(P2.salt))
+
 Email directly self, opponent
+
 m1p1 = game_id, turn_id, move, previous_state
+
 m1p2 = game_id, turn_id, move, previous_state
+
 P1 -> P2 game_id, turn_id, hash(m1p1)
+
 P2 -> P1 game_id, turn_id, hash(m1p2)
 
 P2 -> P1 m1p2 = hash(scissors, game_id, turn#, sig)
 P1 -> 
 state = apply previous state, m1
+
 # state should be same for both players
+
 P1 -> P2 m2p1 = state, sig(hash(paper, game_id, turn#, state))
 
 
@@ -118,11 +126,13 @@ First Cheat Free Simultaneous selection multiplayer FMAIL based game engine
 ### What is fmail
 
 fmail is just an extremely restrictive and prescriptive subset of email
+
 - pki encryption required
 - signatures required
 - should be formalized like an addendum RFC
 
 ##### fmail.client
+
 - can be made by anyone
 - connects to an email account (raw access to maildir)
 - app notifications via IMAP notifications
@@ -139,6 +149,7 @@ fmail is just an extremely restrictive and prescriptive subset of email
 ## MVP for GE
 
 ### Required Packages
+
 - Postfix
 - Caddy
 - Custom: configure caddy to read a maildir
@@ -179,14 +190,14 @@ Provide SMTP service which sends a signed encrypted email which updates user spe
 
 Java solutions will not be considered due to memory availability on the device.
 
-### reliable stack
-- [nginx](/rktpi/post/nginx) for (maybe caddy for dynamic config later?)
-- webapp in fastapi
-- postgres (store and msg)
-- bind
-- postfix
+### most reliable stack
+- [nginx](/rktpi/post/web) for static assets and reverse proxy (maybe caddy later?)
+- [postfix](/rktpi/post/messaging) messaging for external communications
+- [postgresql](/rktpi/post/events) queue and store
+- [bind](/rktpi/post/names) for name resolution
+- [fastapi](/rktpi/post/apps) webapp in fastapi
 
-### low resource stack
+### golang low resource stack
 - [coreDNS](https://coredns.io/)
 - caddy
 - [NSQ](https://nsq.io/) [quickstart](https://nsq.io/overview/quick_start.html)
@@ -209,10 +220,39 @@ you get half a wrapper integrated with a tornado instance where you have to inte
 doesn't work with asyncio you have to use tornado
 
 
+# The Oldernet
 
+The lifecycle of most apps (mobile or web) is:
+
+1. Invent something useful
+1. Get popular
+1. Sell ads
+1. Add social media features to collect user data
+1. Sell app to SEO company
+1. Sell user data
+1. Replace useful buttons with buttons that sell ads
+1. Replace social media features with ads
+1. more ads
+1. app becomes unusable
+
+This happens EVERYWHERE
+
+- The frontpage of google is now just ads. 
+- Facebook, Instagram, ...
+- Your ex-favorite mobile game..
+
+## No User is asking for this!
+
+The idea that YOU want ads more relevant to you is rediculous. You never wanted them anyway.
+Sure, people are allowed to make money, they can do it on the oldernet.
+
+### How can you stop it?
+If we allow JS, then the browser can be used as an agent of the ad network which will
+inevitably grow in it.
+If we allow second requests (even favicons) then users will be tracked and fingerprinted
+
+TODO: what do I want though?!
 
 {{< svg "test.drawio.svg" >}}
-
-{{< svg "test.svg" >}}
 
 {{< svg "spinner.svg" >}}

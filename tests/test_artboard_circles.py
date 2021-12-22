@@ -11,14 +11,14 @@ def svg_head(
 ):
     return f"""
         <svg
-        xmlns="http://www.w3.org/2000/svg" 
+        xmlns="http://www.w3.org/2000/svg"
         viewBox="{vbxmin} {vbymin} {vbw} {vbh}"
         width="{width}">
         <filter id='shadow' color-interpolation-filters="sRGB">
             <feDropShadow dx="2" dy="2" stdDeviation="2" flood-opacity="0.4"/>
         </filter>
         <filter id='shadow2' color-interpolation-filters="sRGB">
-            <feDropShadow dx="0" dy="0" stdDeviation="5.5" flood-opacity="0.8"/>
+            <feDropShadow dx="0" dy="0" stdDeviation="5.5" flood-opacity=".8"/>
         </filter>
     """
 
@@ -29,7 +29,7 @@ def svg_foot():
 
 def qcircle():
     return """
-    <path fill="none" stroke="green" stroke-opacity="0.3" 
+    <path fill="none" stroke="green" stroke-opacity="0.3"
     stroke-width="8" d="M20,0 a20,20 0 0,1 20,20" />
     """
 
