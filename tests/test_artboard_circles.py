@@ -30,7 +30,7 @@ def svg_foot():
 
 def qcircle():
     return """
-    <path fill="none" stroke="green" stroke-opacity="0.3" 
+    <path fill="none" stroke="green" stroke-opacity="0.3"
      stroke-width="8" d="M20,0 a20,20 0 0,1 20,20" />
     """
 
