@@ -6,31 +6,32 @@ def svg_head(
     vbymin: int = 0,
     vbw: int = 1000,
     vbh: int = 1000,
-    width: str = "50vw",
+    width: str = 1000,
     height: str = "",
 ):
     return f"""
         <svg
         xmlns="http://www.w3.org/2000/svg" 
         viewBox="{vbxmin} {vbymin} {vbw} {vbh}"
-        width="{width}">
+        width="{width}" stroke="black" stroke-width="4">
         <filter id='shadow' color-interpolation-filters="sRGB">
             <feDropShadow dx="2" dy="2" stdDeviation="2" flood-opacity="0.4"/>
         </filter>
         <filter id='shadow2' color-interpolation-filters="sRGB">
             <feDropShadow dx="0" dy="0" stdDeviation="5.5" flood-opacity="0.8"/>
         </filter>
+        <g fill="none" stroke="black" stroke-width="4">
     """
 
 
 def svg_foot():
-    return """</svg>"""
+    return """</g></svg>"""
 
 
 def qcircle():
     return """
     <path fill="none" stroke="green" stroke-opacity="0.3" 
-    stroke-width="8" d="M20,0 a20,20 0 0,1 20,20" />
+     stroke-width="8" d="M20,0 a20,20 0 0,1 20,20" />
     """
 
 
@@ -86,38 +87,42 @@ def get_color():
 
 def style3():
     return (
+        f" "
         f'fill="{get_color()}" '
-        f'stroke="none"'
-        f'fill-opacity="0.8"'
-        f'filter="url(#shadow)"'
+        f'stroke="none" '
+        f'fill-opacity="0.8" '
+        f'filter="url(#shadow)" '
     )
 
 
 def style2():
     return (
+        f" "
         f'fill="{get_color()}" '
-        f'stroke="black"'
-        f'fill-opacity="0.4"'
-        f'filter="url(#shadow)"'
-        f'stroke-width="2"'
+        f'stroke="black" '
+        f'fill-opacity="0.4" '
+        f'filter="url(#shadow)" '
+        f'stroke-width="2" '
     )
 
 
 def style1():
     return (
+        f" "
         f'fill="{get_color2()}" '
-        f'stroke="none"'
-        f'fill-opacity=".6"'
-        f'filter="url(#shadow2)"'
+        f'stroke="none" '
+        f'fill-opacity=".6" '
+        f'filter="url(#shadow2)" '
     )
 
 
 def style():
     return (
+        f" "
         f'fill="{get_color()}" '
-        f'stroke="none"'
-        f'fill-opacity="0.8"'
-        f'filter="url(#shadow)"'
+        f'stroke="none" '
+        f'fill-opacity="0.8" '
+        f'filter="url(#shadow)" '
         # f'stroke-width="2"'
     )
 
@@ -296,9 +301,7 @@ def symmetry2():
 
 def test_artboard_circles01():
     with open("docs/content/svg/circles01.svg", "w") as the_file:
-        the_file.write(
-            (f"{svg_head(width=800)}" f"{more_circles(50)}" f"{svg_foot()}")
-        )
+        the_file.write((f"{svg_head(width=800)}" f"{more_circles(50)}" f"{svg_foot()}"))
 
 
 def test_artboard_circles02():
@@ -310,16 +313,12 @@ def test_artboard_circles02():
 
 def test_artboard_circles03():
     with open("docs/content/svg/circles03.svg", "w") as the_file:
-        the_file.write(
-            (f"{svg_head(width=800)}" f"{packed_circles()}" f"{svg_foot()}")
-        )
+        the_file.write((f"{svg_head(width=800)}" f"{packed_circles()}" f"{svg_foot()}"))
 
 
 def test_artboard_circles04():
     with open("docs/content/svg/circles04.svg", "w") as the_file:
-        the_file.write(
-            (f"{svg_head(width=800)}" f"{symmetry()}" f"{svg_foot()}")
-        )
+        the_file.write((f"{svg_head(width=800)}" f"{symmetry()}" f"{svg_foot()}"))
 
 
 def test_artboard_circles05():
