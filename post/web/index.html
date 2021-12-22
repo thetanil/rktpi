@@ -4,7 +4,7 @@
 <meta name=viewport content="width=device-width,initial-scale=1">
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <style type=text/css>body{font-family:monospace}</style>
-<title>Nginx</title>
+<title>Web Service with NGINX</title>
 <link rel=icon type=image/png href=data:image/png,%89PNG%0D%0A%1A%0A>
 <style>*,*::before,*::after{box-sizing:border-box}body,h1,h2,h3,h4,p,figure,blockquote,dl,dd{margin:0}ul[role=list],ol[role=list]{list-style:none}html:focus-within{scroll-behavior:smooth}body{min-height:100vh;text-rendering:optimizeSpeed;line-height:1.5}a:not([class]){text-decoration-skip-ink:auto}img,picture{max-width:100%;display:block}input,button,textarea,select{font:inherit}@media(prefers-reduced-motion:reduce){html:focus-within{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}html{overflow-y:scroll}:root{--bgcolor:white;--fontcolor:#444;--linkcolor:#00e;--visitedcolor:#551a8b;--precolor:#fff;--prebgcolor:#000}@media(prefers-color-scheme:dark){:root{--bgcolor:black;--fontcolor:white;--linkcolor:#5bf;--visitedcolor:#ae5ee0;--precolor:#fff;--prebgcolor:#383838}}body{margin:0;padding:0;max-width:800px;margin:40px auto;padding:0 10px;font-family:Century Gothic,CenturyGothic,AppleGothic,sans-serif;color:var(--fontcolor);background:var(--bgcolor)}a:link{color:var(--linkcolor)}a:visited{color:var(--visitedcolor)}a:active{color:var(--visitedcolor)}h1,h2,h3{line-height:1.2}p>code{color:var(--precolor);background:var(--prebgcolor);padding:2px}pre{color:var(--precolor);background:var(--prebgcolor);padding:24px;overflow-x:auto}article{padding:24px 0}.center{display:block;margin-left:auto;margin-right:auto;width:100%}figcaption{color:#888;font:12px/1.5 monospace;text-align:center}figure{margin:auto}img{display:block;max-width:100%;height:auto;margin:auto}.emoji{font-family:Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,Android Emoji,EmojiSymbols}.svg{width:120vw}</style>
 </head>
@@ -22,7 +22,7 @@
 </header>
 <main>
 <article>
-<h1>Nginx</h1>
+<h1>Web Service with NGINX</h1>
 <b><time>21.12.2021 11:48</time></b>
 <a href=/rktpi/%20/tags/markdown>markdown</a>
 <a href=/rktpi/%20/tags/css>css</a>
@@ -30,10 +30,19 @@
 <div>
 <h1 id=nginx-will-be-our-web-server>NGINX will be our web server</h1>
 <p>RktPi uses nginx as it&rsquo;s static content server and reverse proxy</p>
+<p>rktpi will use the package distributed with raspbian</p>
 <h2 id=installation-and-base-config>Installation and Base Config</h2>
-<p>Part of the rktpi ansible deployment.</p>
+<p>Part of the rktpi <a href=https://github.com/thetanil/rktpi/blob/main/ansible/roles/rktpi/tasks/nginx.yml>ansible deployment for nginx</a>.</p>
 <h2 id=nginx-as-static-site-server>Nginx as Static Site Server</h2>
+<p>for now, all paths are either open to the public or only for the owner of the device</p>
+<p>every app has</p>
+<ul>
+<li>public///</li>
+<li>private///</li>
+</ul>
+<p>private is a seperate server which only listens on 127</p>
 <h2 id=nginx-as-reverse-proxy>Nginx as Reverse Proxy</h2>
+<p>every app can request to have a single port forwarded by nginx</p>
 </div>
 </article>
 </main>
@@ -44,7 +53,7 @@
 </div>
 <div>
 <ul>
-<li><a href=/rktpi/post/nginx/>Nginx</a></li>
+<li><a href=/rktpi/post/web/>Web Service with NGINX</a></li>
 <li><a href=/rktpi/post/docs/>Docs</a></li>
 <li><a href=/rktpi/post/artboard/>Artboard</a></li>
 <li><a href=/rktpi/post/rktpi/>rktpi</a></li>
