@@ -1,0 +1,20 @@
+
+        <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1920 1080"
+        stroke="black" stroke-width="4">
+        <filter id='shadow' color-interpolation-filters="sRGB">
+            <feDropShadow dx="2" dy="2" stdDeviation="2" flood-opacity="0.4"/>
+        </filter>
+        <filter id='shadow2' color-interpolation-filters="sRGB">
+            <feDropShadow dx="0" dy="0" stdDeviation="5.5" flood-opacity=".8"/>
+        </filter>
+        <filter id='shadow3' color-interpolation-filters="sRGB">
+        <feDropShadow dx="10" dy="10" stdDeviation="0"
+          flood-color="teal" flood-opacity="0.5"/>
+        </filter>
+        <g >
+        <rect x="0" y="0" width="100%" height="100%" fill="#ccc"
+                stroke-width="8" stroke="none" />
+        </g>
+    ['<line x1="1661" y1="879" x2="1097" y2="222"  stroke="#6b705c" stroke-width="26" stroke-dasharray="32 64 128" filter="url(#shadow3)" />', '<line x1="381" y1="478" x2="1142" y2="371"  stroke="#ddbea9" stroke-width="26" stroke-dasharray="32 64 128" filter="url(#shadow3)" />', '<line x1="1269" y1="494" x2="1914" y2="842"  stroke="#ddbea9" stroke-width="26" stroke-dasharray="32 64 128" filter="url(#shadow3)" />', '<line x1="889" y1="308" x2="13" y2="852"  stroke="#ddbea9" stroke-width="12" stroke-dasharray="32 64 128" filter="url(#shadow3)" />', '<line x1="1295" y1="281" x2="1243" y2="621"  stroke="#a5a58d" stroke-width="30" stroke-dasharray="32 64 128" filter="url(#shadow3)" />', '<line x1="1913" y1="532" x2="467" y2="303"  stroke="#cb997e" stroke-width="9" stroke-dasharray="32 64 128" filter="url(#shadow3)" />', '<line x1="1500" y1="61" x2="1047" y2="931"  stroke="#a5a58d" stroke-width="23" stroke-dasharray="32 64 128" filter="url(#shadow3)" />', '<line x1="382" y1="729" x2="830" y2="139"  stroke="" stroke-width="20" stroke-dasharray="32 64 128" filter="url(#shadow3)" />', '<line x1="1125" y1="582" x2="741" y2="965"  stroke="#a5a58d" stroke-width="23" stroke-dasharray="32 64 128" filter="url(#shadow3)" />', '<line x1="1802" y1="245" x2="619" y2="753"  stroke="#ddbea9" stroke-width="31" stroke-dasharray="32 64 128" filter="url(#shadow3)" />']</svg>
