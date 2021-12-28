@@ -17,57 +17,28 @@
         <rect x="0" y="0" width="100%" height="100%" fill="#ccc"
                 stroke-width="8" stroke="none" />
         </g>
-    <line x1="-886" y1="1028" x2="-1724" y2="932"  stroke="#bb3e03" stroke-width="40" stroke-linecap="round" filter="url(#shadow2)" >
+    <line x1="1300" y1="427" x2="1625" y2="-401"  stroke="#001219" stroke-width="9" stroke-linecap="round" filter="url(#shadow2)" >
             <animateTransform attributeName="transform"
                           attributeType="XML"
                           type="rotate"
                           from="0 60 70"
                           to="360 60 70"
                           dur="10s"
-                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="-886" y1="1028" x2="-1724" y2="932"  stroke="#bb3e03" stroke-width="40" stroke-linecap="round" filter="url(#shadow2)" >
+                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="1300" y1="427" x2="1625" y2="-401"  stroke="#001219" stroke-width="9" stroke-linecap="round" filter="url(#shadow2)" >
             <animateTransform attributeName="transform"
                           attributeType="XML"
                           type="rotate"
                           from="0 60 70"
                           to="360 60 70"
                           dur="10s"
-                          repeatCount="indefinite"/></line> </g><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) " > <line x1="-886" y1="1028" x2="-1724" y2="932"  stroke="#bb3e03" stroke-width="40" stroke-linecap="round" filter="url(#shadow2)" >
+                          repeatCount="indefinite"/></line> </g><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) " > <line x1="1300" y1="427" x2="1625" y2="-401"  stroke="#001219" stroke-width="9" stroke-linecap="round" filter="url(#shadow2)" >
             <animateTransform attributeName="transform"
                           attributeType="XML"
                           type="rotate"
                           from="0 60 70"
                           to="360 60 70"
                           dur="10s"
-                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="-886" y1="1028" x2="-1724" y2="932"  stroke="#bb3e03" stroke-width="40" stroke-linecap="round" filter="url(#shadow2)" >
-            <animateTransform attributeName="transform"
-                          attributeType="XML"
-                          type="rotate"
-                          from="0 60 70"
-                          to="360 60 70"
-                          dur="10s"
-                          repeatCount="indefinite"/></line> </g> </g>
-<line x1="1029" y1="832" x2="-967" y2="985"  stroke="#9b2226" stroke-width="41" stroke-linecap="round" filter="url(#shadow2)" >
-            <animateTransform attributeName="transform"
-                          attributeType="XML"
-                          type="rotate"
-                          from="0 60 70"
-                          to="360 60 70"
-                          dur="10s"
-                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="1029" y1="832" x2="-967" y2="985"  stroke="#9b2226" stroke-width="41" stroke-linecap="round" filter="url(#shadow2)" >
-            <animateTransform attributeName="transform"
-                          attributeType="XML"
-                          type="rotate"
-                          from="0 60 70"
-                          to="360 60 70"
-                          dur="10s"
-                          repeatCount="indefinite"/></line> </g><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) " > <line x1="1029" y1="832" x2="-967" y2="985"  stroke="#9b2226" stroke-width="41" stroke-linecap="round" filter="url(#shadow2)" >
-            <animateTransform attributeName="transform"
-                          attributeType="XML"
-                          type="rotate"
-                          from="0 60 70"
-                          to="360 60 70"
-                          dur="10s"
-                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="1029" y1="832" x2="-967" y2="985"  stroke="#9b2226" stroke-width="41" stroke-linecap="round" filter="url(#shadow2)" >
+                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="1300" y1="427" x2="1625" y2="-401"  stroke="#001219" stroke-width="9" stroke-linecap="round" filter="url(#shadow2)" >
             <animateTransform attributeName="transform"
                           attributeType="XML"
                           type="rotate"
@@ -75,57 +46,28 @@
                           to="360 60 70"
                           dur="10s"
                           repeatCount="indefinite"/></line> </g> </g>
-<line x1="436" y1="765" x2="1520" y2="460"  stroke="#005f73" stroke-width="56" stroke-linecap="round" filter="url(#shadow2)" >
+<line x1="1119" y1="719" x2="358" y2="323"  stroke="#bb3e03" stroke-width="37" stroke-linecap="round" filter="url(#shadow2)" >
             <animateTransform attributeName="transform"
                           attributeType="XML"
                           type="rotate"
                           from="0 60 70"
                           to="360 60 70"
                           dur="10s"
-                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="436" y1="765" x2="1520" y2="460"  stroke="#005f73" stroke-width="56" stroke-linecap="round" filter="url(#shadow2)" >
+                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="1119" y1="719" x2="358" y2="323"  stroke="#bb3e03" stroke-width="37" stroke-linecap="round" filter="url(#shadow2)" >
             <animateTransform attributeName="transform"
                           attributeType="XML"
                           type="rotate"
                           from="0 60 70"
                           to="360 60 70"
                           dur="10s"
-                          repeatCount="indefinite"/></line> </g><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) " > <line x1="436" y1="765" x2="1520" y2="460"  stroke="#005f73" stroke-width="56" stroke-linecap="round" filter="url(#shadow2)" >
+                          repeatCount="indefinite"/></line> </g><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) " > <line x1="1119" y1="719" x2="358" y2="323"  stroke="#bb3e03" stroke-width="37" stroke-linecap="round" filter="url(#shadow2)" >
             <animateTransform attributeName="transform"
                           attributeType="XML"
                           type="rotate"
                           from="0 60 70"
                           to="360 60 70"
                           dur="10s"
-                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="436" y1="765" x2="1520" y2="460"  stroke="#005f73" stroke-width="56" stroke-linecap="round" filter="url(#shadow2)" >
-            <animateTransform attributeName="transform"
-                          attributeType="XML"
-                          type="rotate"
-                          from="0 60 70"
-                          to="360 60 70"
-                          dur="10s"
-                          repeatCount="indefinite"/></line> </g> </g>
-<line x1="-911" y1="-35" x2="-1647" y2="314"  stroke="#001219" stroke-width="36" stroke-linecap="round" filter="url(#shadow2)" >
-            <animateTransform attributeName="transform"
-                          attributeType="XML"
-                          type="rotate"
-                          from="0 60 70"
-                          to="360 60 70"
-                          dur="10s"
-                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="-911" y1="-35" x2="-1647" y2="314"  stroke="#001219" stroke-width="36" stroke-linecap="round" filter="url(#shadow2)" >
-            <animateTransform attributeName="transform"
-                          attributeType="XML"
-                          type="rotate"
-                          from="0 60 70"
-                          to="360 60 70"
-                          dur="10s"
-                          repeatCount="indefinite"/></line> </g><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) " > <line x1="-911" y1="-35" x2="-1647" y2="314"  stroke="#001219" stroke-width="36" stroke-linecap="round" filter="url(#shadow2)" >
-            <animateTransform attributeName="transform"
-                          attributeType="XML"
-                          type="rotate"
-                          from="0 60 70"
-                          to="360 60 70"
-                          dur="10s"
-                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="-911" y1="-35" x2="-1647" y2="314"  stroke="#001219" stroke-width="36" stroke-linecap="round" filter="url(#shadow2)" >
+                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="1119" y1="719" x2="358" y2="323"  stroke="#bb3e03" stroke-width="37" stroke-linecap="round" filter="url(#shadow2)" >
             <animateTransform attributeName="transform"
                           attributeType="XML"
                           type="rotate"
@@ -133,57 +75,28 @@
                           to="360 60 70"
                           dur="10s"
                           repeatCount="indefinite"/></line> </g> </g>
-<line x1="-810" y1="-442" x2="103" y2="-1046"  stroke="#94d2bd" stroke-width="29" stroke-linecap="round" filter="url(#shadow2)" >
+<line x1="-368" y1="651" x2="1215" y2="-911"  stroke="#0a9396" stroke-width="18" stroke-linecap="round" filter="url(#shadow2)" >
             <animateTransform attributeName="transform"
                           attributeType="XML"
                           type="rotate"
                           from="0 60 70"
                           to="360 60 70"
                           dur="10s"
-                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="-810" y1="-442" x2="103" y2="-1046"  stroke="#94d2bd" stroke-width="29" stroke-linecap="round" filter="url(#shadow2)" >
+                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="-368" y1="651" x2="1215" y2="-911"  stroke="#0a9396" stroke-width="18" stroke-linecap="round" filter="url(#shadow2)" >
             <animateTransform attributeName="transform"
                           attributeType="XML"
                           type="rotate"
                           from="0 60 70"
                           to="360 60 70"
                           dur="10s"
-                          repeatCount="indefinite"/></line> </g><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) " > <line x1="-810" y1="-442" x2="103" y2="-1046"  stroke="#94d2bd" stroke-width="29" stroke-linecap="round" filter="url(#shadow2)" >
+                          repeatCount="indefinite"/></line> </g><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) " > <line x1="-368" y1="651" x2="1215" y2="-911"  stroke="#0a9396" stroke-width="18" stroke-linecap="round" filter="url(#shadow2)" >
             <animateTransform attributeName="transform"
                           attributeType="XML"
                           type="rotate"
                           from="0 60 70"
                           to="360 60 70"
                           dur="10s"
-                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="-810" y1="-442" x2="103" y2="-1046"  stroke="#94d2bd" stroke-width="29" stroke-linecap="round" filter="url(#shadow2)" >
-            <animateTransform attributeName="transform"
-                          attributeType="XML"
-                          type="rotate"
-                          from="0 60 70"
-                          to="360 60 70"
-                          dur="10s"
-                          repeatCount="indefinite"/></line> </g> </g>
-<line x1="-1391" y1="-729" x2="-761" y2="-234"  stroke="#005f73" stroke-width="13" stroke-linecap="round" filter="url(#shadow2)" >
-            <animateTransform attributeName="transform"
-                          attributeType="XML"
-                          type="rotate"
-                          from="0 60 70"
-                          to="360 60 70"
-                          dur="10s"
-                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="-1391" y1="-729" x2="-761" y2="-234"  stroke="#005f73" stroke-width="13" stroke-linecap="round" filter="url(#shadow2)" >
-            <animateTransform attributeName="transform"
-                          attributeType="XML"
-                          type="rotate"
-                          from="0 60 70"
-                          to="360 60 70"
-                          dur="10s"
-                          repeatCount="indefinite"/></line> </g><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) " > <line x1="-1391" y1="-729" x2="-761" y2="-234"  stroke="#005f73" stroke-width="13" stroke-linecap="round" filter="url(#shadow2)" >
-            <animateTransform attributeName="transform"
-                          attributeType="XML"
-                          type="rotate"
-                          from="0 60 70"
-                          to="360 60 70"
-                          dur="10s"
-                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="-1391" y1="-729" x2="-761" y2="-234"  stroke="#005f73" stroke-width="13" stroke-linecap="round" filter="url(#shadow2)" >
+                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="-368" y1="651" x2="1215" y2="-911"  stroke="#0a9396" stroke-width="18" stroke-linecap="round" filter="url(#shadow2)" >
             <animateTransform attributeName="transform"
                           attributeType="XML"
                           type="rotate"
@@ -191,57 +104,28 @@
                           to="360 60 70"
                           dur="10s"
                           repeatCount="indefinite"/></line> </g> </g>
-<line x1="1162" y1="-333" x2="252" y2="-915"  stroke="#0a9396" stroke-width="34" stroke-linecap="round" filter="url(#shadow2)" >
+<line x1="-135" y1="535" x2="153" y2="-799"  stroke="#0a9396" stroke-width="37" stroke-linecap="round" filter="url(#shadow2)" >
             <animateTransform attributeName="transform"
                           attributeType="XML"
                           type="rotate"
                           from="0 60 70"
                           to="360 60 70"
                           dur="10s"
-                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="1162" y1="-333" x2="252" y2="-915"  stroke="#0a9396" stroke-width="34" stroke-linecap="round" filter="url(#shadow2)" >
+                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="-135" y1="535" x2="153" y2="-799"  stroke="#0a9396" stroke-width="37" stroke-linecap="round" filter="url(#shadow2)" >
             <animateTransform attributeName="transform"
                           attributeType="XML"
                           type="rotate"
                           from="0 60 70"
                           to="360 60 70"
                           dur="10s"
-                          repeatCount="indefinite"/></line> </g><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) " > <line x1="1162" y1="-333" x2="252" y2="-915"  stroke="#0a9396" stroke-width="34" stroke-linecap="round" filter="url(#shadow2)" >
+                          repeatCount="indefinite"/></line> </g><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) " > <line x1="-135" y1="535" x2="153" y2="-799"  stroke="#0a9396" stroke-width="37" stroke-linecap="round" filter="url(#shadow2)" >
             <animateTransform attributeName="transform"
                           attributeType="XML"
                           type="rotate"
                           from="0 60 70"
                           to="360 60 70"
                           dur="10s"
-                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="1162" y1="-333" x2="252" y2="-915"  stroke="#0a9396" stroke-width="34" stroke-linecap="round" filter="url(#shadow2)" >
-            <animateTransform attributeName="transform"
-                          attributeType="XML"
-                          type="rotate"
-                          from="0 60 70"
-                          to="360 60 70"
-                          dur="10s"
-                          repeatCount="indefinite"/></line> </g> </g>
-<line x1="209" y1="-756" x2="-142" y2="-555"  stroke="#0a9396" stroke-width="30" stroke-linecap="round" filter="url(#shadow2)" >
-            <animateTransform attributeName="transform"
-                          attributeType="XML"
-                          type="rotate"
-                          from="0 60 70"
-                          to="360 60 70"
-                          dur="10s"
-                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="209" y1="-756" x2="-142" y2="-555"  stroke="#0a9396" stroke-width="30" stroke-linecap="round" filter="url(#shadow2)" >
-            <animateTransform attributeName="transform"
-                          attributeType="XML"
-                          type="rotate"
-                          from="0 60 70"
-                          to="360 60 70"
-                          dur="10s"
-                          repeatCount="indefinite"/></line> </g><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) " > <line x1="209" y1="-756" x2="-142" y2="-555"  stroke="#0a9396" stroke-width="30" stroke-linecap="round" filter="url(#shadow2)" >
-            <animateTransform attributeName="transform"
-                          attributeType="XML"
-                          type="rotate"
-                          from="0 60 70"
-                          to="360 60 70"
-                          dur="10s"
-                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="209" y1="-756" x2="-142" y2="-555"  stroke="#0a9396" stroke-width="30" stroke-linecap="round" filter="url(#shadow2)" >
+                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="-135" y1="535" x2="153" y2="-799"  stroke="#0a9396" stroke-width="37" stroke-linecap="round" filter="url(#shadow2)" >
             <animateTransform attributeName="transform"
                           attributeType="XML"
                           type="rotate"
@@ -249,57 +133,28 @@
                           to="360 60 70"
                           dur="10s"
                           repeatCount="indefinite"/></line> </g> </g>
-<line x1="-364" y1="495" x2="-1482" y2="-385"  stroke="#0a9396" stroke-width="38" stroke-linecap="round" filter="url(#shadow2)" >
+<line x1="1676" y1="-1033" x2="1602" y2="-74"  stroke="#005f73" stroke-width="8" stroke-linecap="round" filter="url(#shadow2)" >
             <animateTransform attributeName="transform"
                           attributeType="XML"
                           type="rotate"
                           from="0 60 70"
                           to="360 60 70"
                           dur="10s"
-                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="-364" y1="495" x2="-1482" y2="-385"  stroke="#0a9396" stroke-width="38" stroke-linecap="round" filter="url(#shadow2)" >
+                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="1676" y1="-1033" x2="1602" y2="-74"  stroke="#005f73" stroke-width="8" stroke-linecap="round" filter="url(#shadow2)" >
             <animateTransform attributeName="transform"
                           attributeType="XML"
                           type="rotate"
                           from="0 60 70"
                           to="360 60 70"
                           dur="10s"
-                          repeatCount="indefinite"/></line> </g><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) " > <line x1="-364" y1="495" x2="-1482" y2="-385"  stroke="#0a9396" stroke-width="38" stroke-linecap="round" filter="url(#shadow2)" >
+                          repeatCount="indefinite"/></line> </g><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) " > <line x1="1676" y1="-1033" x2="1602" y2="-74"  stroke="#005f73" stroke-width="8" stroke-linecap="round" filter="url(#shadow2)" >
             <animateTransform attributeName="transform"
                           attributeType="XML"
                           type="rotate"
                           from="0 60 70"
                           to="360 60 70"
                           dur="10s"
-                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="-364" y1="495" x2="-1482" y2="-385"  stroke="#0a9396" stroke-width="38" stroke-linecap="round" filter="url(#shadow2)" >
-            <animateTransform attributeName="transform"
-                          attributeType="XML"
-                          type="rotate"
-                          from="0 60 70"
-                          to="360 60 70"
-                          dur="10s"
-                          repeatCount="indefinite"/></line> </g> </g>
-<line x1="72" y1="569" x2="641" y2="-622"  stroke="#94d2bd" stroke-width="62" stroke-linecap="round" filter="url(#shadow2)" >
-            <animateTransform attributeName="transform"
-                          attributeType="XML"
-                          type="rotate"
-                          from="0 60 70"
-                          to="360 60 70"
-                          dur="10s"
-                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="72" y1="569" x2="641" y2="-622"  stroke="#94d2bd" stroke-width="62" stroke-linecap="round" filter="url(#shadow2)" >
-            <animateTransform attributeName="transform"
-                          attributeType="XML"
-                          type="rotate"
-                          from="0 60 70"
-                          to="360 60 70"
-                          dur="10s"
-                          repeatCount="indefinite"/></line> </g><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) " > <line x1="72" y1="569" x2="641" y2="-622"  stroke="#94d2bd" stroke-width="62" stroke-linecap="round" filter="url(#shadow2)" >
-            <animateTransform attributeName="transform"
-                          attributeType="XML"
-                          type="rotate"
-                          from="0 60 70"
-                          to="360 60 70"
-                          dur="10s"
-                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="72" y1="569" x2="641" y2="-622"  stroke="#94d2bd" stroke-width="62" stroke-linecap="round" filter="url(#shadow2)" >
+                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="1676" y1="-1033" x2="1602" y2="-74"  stroke="#005f73" stroke-width="8" stroke-linecap="round" filter="url(#shadow2)" >
             <animateTransform attributeName="transform"
                           attributeType="XML"
                           type="rotate"
@@ -307,57 +162,28 @@
                           to="360 60 70"
                           dur="10s"
                           repeatCount="indefinite"/></line> </g> </g>
-<line x1="-119" y1="981" x2="197" y2="663"  stroke="#9b2226" stroke-width="59" stroke-linecap="round" filter="url(#shadow2)" >
+<line x1="-1480" y1="-493" x2="-88" y2="-1070"  stroke="#9b2226" stroke-width="46" stroke-linecap="round" filter="url(#shadow2)" >
             <animateTransform attributeName="transform"
                           attributeType="XML"
                           type="rotate"
                           from="0 60 70"
                           to="360 60 70"
                           dur="10s"
-                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="-119" y1="981" x2="197" y2="663"  stroke="#9b2226" stroke-width="59" stroke-linecap="round" filter="url(#shadow2)" >
+                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="-1480" y1="-493" x2="-88" y2="-1070"  stroke="#9b2226" stroke-width="46" stroke-linecap="round" filter="url(#shadow2)" >
             <animateTransform attributeName="transform"
                           attributeType="XML"
                           type="rotate"
                           from="0 60 70"
                           to="360 60 70"
                           dur="10s"
-                          repeatCount="indefinite"/></line> </g><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) " > <line x1="-119" y1="981" x2="197" y2="663"  stroke="#9b2226" stroke-width="59" stroke-linecap="round" filter="url(#shadow2)" >
+                          repeatCount="indefinite"/></line> </g><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) " > <line x1="-1480" y1="-493" x2="-88" y2="-1070"  stroke="#9b2226" stroke-width="46" stroke-linecap="round" filter="url(#shadow2)" >
             <animateTransform attributeName="transform"
                           attributeType="XML"
                           type="rotate"
                           from="0 60 70"
                           to="360 60 70"
                           dur="10s"
-                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="-119" y1="981" x2="197" y2="663"  stroke="#9b2226" stroke-width="59" stroke-linecap="round" filter="url(#shadow2)" >
-            <animateTransform attributeName="transform"
-                          attributeType="XML"
-                          type="rotate"
-                          from="0 60 70"
-                          to="360 60 70"
-                          dur="10s"
-                          repeatCount="indefinite"/></line> </g> </g>
-<line x1="164" y1="435" x2="-415" y2="-173"  stroke="#bb3e03" stroke-width="64" stroke-linecap="round" filter="url(#shadow2)" >
-            <animateTransform attributeName="transform"
-                          attributeType="XML"
-                          type="rotate"
-                          from="0 60 70"
-                          to="360 60 70"
-                          dur="10s"
-                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="164" y1="435" x2="-415" y2="-173"  stroke="#bb3e03" stroke-width="64" stroke-linecap="round" filter="url(#shadow2)" >
-            <animateTransform attributeName="transform"
-                          attributeType="XML"
-                          type="rotate"
-                          from="0 60 70"
-                          to="360 60 70"
-                          dur="10s"
-                          repeatCount="indefinite"/></line> </g><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) " > <line x1="164" y1="435" x2="-415" y2="-173"  stroke="#bb3e03" stroke-width="64" stroke-linecap="round" filter="url(#shadow2)" >
-            <animateTransform attributeName="transform"
-                          attributeType="XML"
-                          type="rotate"
-                          from="0 60 70"
-                          to="360 60 70"
-                          dur="10s"
-                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="164" y1="435" x2="-415" y2="-173"  stroke="#bb3e03" stroke-width="64" stroke-linecap="round" filter="url(#shadow2)" >
+                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="-1480" y1="-493" x2="-88" y2="-1070"  stroke="#9b2226" stroke-width="46" stroke-linecap="round" filter="url(#shadow2)" >
             <animateTransform attributeName="transform"
                           attributeType="XML"
                           type="rotate"
@@ -365,57 +191,28 @@
                           to="360 60 70"
                           dur="10s"
                           repeatCount="indefinite"/></line> </g> </g>
-<line x1="1695" y1="256" x2="1846" y2="-644"  stroke="#94d2bd" stroke-width="39" stroke-linecap="round" filter="url(#shadow2)" >
+<line x1="1420" y1="-980" x2="-1412" y2="-586"  stroke="#ee9b00" stroke-width="27" stroke-linecap="round" filter="url(#shadow2)" >
             <animateTransform attributeName="transform"
                           attributeType="XML"
                           type="rotate"
                           from="0 60 70"
                           to="360 60 70"
                           dur="10s"
-                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="1695" y1="256" x2="1846" y2="-644"  stroke="#94d2bd" stroke-width="39" stroke-linecap="round" filter="url(#shadow2)" >
+                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="1420" y1="-980" x2="-1412" y2="-586"  stroke="#ee9b00" stroke-width="27" stroke-linecap="round" filter="url(#shadow2)" >
             <animateTransform attributeName="transform"
                           attributeType="XML"
                           type="rotate"
                           from="0 60 70"
                           to="360 60 70"
                           dur="10s"
-                          repeatCount="indefinite"/></line> </g><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) " > <line x1="1695" y1="256" x2="1846" y2="-644"  stroke="#94d2bd" stroke-width="39" stroke-linecap="round" filter="url(#shadow2)" >
+                          repeatCount="indefinite"/></line> </g><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) " > <line x1="1420" y1="-980" x2="-1412" y2="-586"  stroke="#ee9b00" stroke-width="27" stroke-linecap="round" filter="url(#shadow2)" >
             <animateTransform attributeName="transform"
                           attributeType="XML"
                           type="rotate"
                           from="0 60 70"
                           to="360 60 70"
                           dur="10s"
-                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="1695" y1="256" x2="1846" y2="-644"  stroke="#94d2bd" stroke-width="39" stroke-linecap="round" filter="url(#shadow2)" >
-            <animateTransform attributeName="transform"
-                          attributeType="XML"
-                          type="rotate"
-                          from="0 60 70"
-                          to="360 60 70"
-                          dur="10s"
-                          repeatCount="indefinite"/></line> </g> </g>
-<line x1="1563" y1="910" x2="304" y2="-410"  stroke="#bb3e03" stroke-width="42" stroke-linecap="round" filter="url(#shadow2)" >
-            <animateTransform attributeName="transform"
-                          attributeType="XML"
-                          type="rotate"
-                          from="0 60 70"
-                          to="360 60 70"
-                          dur="10s"
-                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="1563" y1="910" x2="304" y2="-410"  stroke="#bb3e03" stroke-width="42" stroke-linecap="round" filter="url(#shadow2)" >
-            <animateTransform attributeName="transform"
-                          attributeType="XML"
-                          type="rotate"
-                          from="0 60 70"
-                          to="360 60 70"
-                          dur="10s"
-                          repeatCount="indefinite"/></line> </g><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) " > <line x1="1563" y1="910" x2="304" y2="-410"  stroke="#bb3e03" stroke-width="42" stroke-linecap="round" filter="url(#shadow2)" >
-            <animateTransform attributeName="transform"
-                          attributeType="XML"
-                          type="rotate"
-                          from="0 60 70"
-                          to="360 60 70"
-                          dur="10s"
-                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="1563" y1="910" x2="304" y2="-410"  stroke="#bb3e03" stroke-width="42" stroke-linecap="round" filter="url(#shadow2)" >
+                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="1420" y1="-980" x2="-1412" y2="-586"  stroke="#ee9b00" stroke-width="27" stroke-linecap="round" filter="url(#shadow2)" >
             <animateTransform attributeName="transform"
                           attributeType="XML"
                           type="rotate"
@@ -423,28 +220,28 @@
                           to="360 60 70"
                           dur="10s"
                           repeatCount="indefinite"/></line> </g> </g>
-<line x1="390" y1="195" x2="-1876" y2="36"  stroke="#9b2226" stroke-width="8" stroke-linecap="round" filter="url(#shadow2)" >
+<line x1="386" y1="-344" x2="-299" y2="192"  stroke="#ee9b00" stroke-width="33" stroke-linecap="round" filter="url(#shadow2)" >
             <animateTransform attributeName="transform"
                           attributeType="XML"
                           type="rotate"
                           from="0 60 70"
                           to="360 60 70"
                           dur="10s"
-                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="390" y1="195" x2="-1876" y2="36"  stroke="#9b2226" stroke-width="8" stroke-linecap="round" filter="url(#shadow2)" >
+                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="386" y1="-344" x2="-299" y2="192"  stroke="#ee9b00" stroke-width="33" stroke-linecap="round" filter="url(#shadow2)" >
             <animateTransform attributeName="transform"
                           attributeType="XML"
                           type="rotate"
                           from="0 60 70"
                           to="360 60 70"
                           dur="10s"
-                          repeatCount="indefinite"/></line> </g><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) " > <line x1="390" y1="195" x2="-1876" y2="36"  stroke="#9b2226" stroke-width="8" stroke-linecap="round" filter="url(#shadow2)" >
+                          repeatCount="indefinite"/></line> </g><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) " > <line x1="386" y1="-344" x2="-299" y2="192"  stroke="#ee9b00" stroke-width="33" stroke-linecap="round" filter="url(#shadow2)" >
             <animateTransform attributeName="transform"
                           attributeType="XML"
                           type="rotate"
                           from="0 60 70"
                           to="360 60 70"
                           dur="10s"
-                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="390" y1="195" x2="-1876" y2="36"  stroke="#9b2226" stroke-width="8" stroke-linecap="round" filter="url(#shadow2)" >
+                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="386" y1="-344" x2="-299" y2="192"  stroke="#ee9b00" stroke-width="33" stroke-linecap="round" filter="url(#shadow2)" >
             <animateTransform attributeName="transform"
                           attributeType="XML"
                           type="rotate"
@@ -452,28 +249,231 @@
                           to="360 60 70"
                           dur="10s"
                           repeatCount="indefinite"/></line> </g> </g>
-<line x1="1408" y1="914" x2="606" y2="-339"  stroke="#bb3e03" stroke-width="34" stroke-linecap="round" filter="url(#shadow2)" >
+<line x1="559" y1="-1049" x2="-1148" y2="811"  stroke="#ee9b00" stroke-width="16" stroke-linecap="round" filter="url(#shadow2)" >
             <animateTransform attributeName="transform"
                           attributeType="XML"
                           type="rotate"
                           from="0 60 70"
                           to="360 60 70"
                           dur="10s"
-                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="1408" y1="914" x2="606" y2="-339"  stroke="#bb3e03" stroke-width="34" stroke-linecap="round" filter="url(#shadow2)" >
+                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="559" y1="-1049" x2="-1148" y2="811"  stroke="#ee9b00" stroke-width="16" stroke-linecap="round" filter="url(#shadow2)" >
             <animateTransform attributeName="transform"
                           attributeType="XML"
                           type="rotate"
                           from="0 60 70"
                           to="360 60 70"
                           dur="10s"
-                          repeatCount="indefinite"/></line> </g><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) " > <line x1="1408" y1="914" x2="606" y2="-339"  stroke="#bb3e03" stroke-width="34" stroke-linecap="round" filter="url(#shadow2)" >
+                          repeatCount="indefinite"/></line> </g><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) " > <line x1="559" y1="-1049" x2="-1148" y2="811"  stroke="#ee9b00" stroke-width="16" stroke-linecap="round" filter="url(#shadow2)" >
             <animateTransform attributeName="transform"
                           attributeType="XML"
                           type="rotate"
                           from="0 60 70"
                           to="360 60 70"
                           dur="10s"
-                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="1408" y1="914" x2="606" y2="-339"  stroke="#bb3e03" stroke-width="34" stroke-linecap="round" filter="url(#shadow2)" >
+                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="559" y1="-1049" x2="-1148" y2="811"  stroke="#ee9b00" stroke-width="16" stroke-linecap="round" filter="url(#shadow2)" >
+            <animateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="rotate"
+                          from="0 60 70"
+                          to="360 60 70"
+                          dur="10s"
+                          repeatCount="indefinite"/></line> </g> </g>
+<line x1="-1111" y1="179" x2="1091" y2="-489"  stroke="#0a9396" stroke-width="24" stroke-linecap="round" filter="url(#shadow2)" >
+            <animateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="rotate"
+                          from="0 60 70"
+                          to="360 60 70"
+                          dur="10s"
+                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="-1111" y1="179" x2="1091" y2="-489"  stroke="#0a9396" stroke-width="24" stroke-linecap="round" filter="url(#shadow2)" >
+            <animateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="rotate"
+                          from="0 60 70"
+                          to="360 60 70"
+                          dur="10s"
+                          repeatCount="indefinite"/></line> </g><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) " > <line x1="-1111" y1="179" x2="1091" y2="-489"  stroke="#0a9396" stroke-width="24" stroke-linecap="round" filter="url(#shadow2)" >
+            <animateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="rotate"
+                          from="0 60 70"
+                          to="360 60 70"
+                          dur="10s"
+                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="-1111" y1="179" x2="1091" y2="-489"  stroke="#0a9396" stroke-width="24" stroke-linecap="round" filter="url(#shadow2)" >
+            <animateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="rotate"
+                          from="0 60 70"
+                          to="360 60 70"
+                          dur="10s"
+                          repeatCount="indefinite"/></line> </g> </g>
+<line x1="-328" y1="-263" x2="314" y2="1039"  stroke="#ca6702" stroke-width="13" stroke-linecap="round" filter="url(#shadow2)" >
+            <animateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="rotate"
+                          from="0 60 70"
+                          to="360 60 70"
+                          dur="10s"
+                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="-328" y1="-263" x2="314" y2="1039"  stroke="#ca6702" stroke-width="13" stroke-linecap="round" filter="url(#shadow2)" >
+            <animateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="rotate"
+                          from="0 60 70"
+                          to="360 60 70"
+                          dur="10s"
+                          repeatCount="indefinite"/></line> </g><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) " > <line x1="-328" y1="-263" x2="314" y2="1039"  stroke="#ca6702" stroke-width="13" stroke-linecap="round" filter="url(#shadow2)" >
+            <animateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="rotate"
+                          from="0 60 70"
+                          to="360 60 70"
+                          dur="10s"
+                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="-328" y1="-263" x2="314" y2="1039"  stroke="#ca6702" stroke-width="13" stroke-linecap="round" filter="url(#shadow2)" >
+            <animateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="rotate"
+                          from="0 60 70"
+                          to="360 60 70"
+                          dur="10s"
+                          repeatCount="indefinite"/></line> </g> </g>
+<line x1="730" y1="802" x2="1211" y2="1075"  stroke="#001219" stroke-width="53" stroke-linecap="round" filter="url(#shadow2)" >
+            <animateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="rotate"
+                          from="0 60 70"
+                          to="360 60 70"
+                          dur="10s"
+                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="730" y1="802" x2="1211" y2="1075"  stroke="#001219" stroke-width="53" stroke-linecap="round" filter="url(#shadow2)" >
+            <animateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="rotate"
+                          from="0 60 70"
+                          to="360 60 70"
+                          dur="10s"
+                          repeatCount="indefinite"/></line> </g><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) " > <line x1="730" y1="802" x2="1211" y2="1075"  stroke="#001219" stroke-width="53" stroke-linecap="round" filter="url(#shadow2)" >
+            <animateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="rotate"
+                          from="0 60 70"
+                          to="360 60 70"
+                          dur="10s"
+                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="730" y1="802" x2="1211" y2="1075"  stroke="#001219" stroke-width="53" stroke-linecap="round" filter="url(#shadow2)" >
+            <animateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="rotate"
+                          from="0 60 70"
+                          to="360 60 70"
+                          dur="10s"
+                          repeatCount="indefinite"/></line> </g> </g>
+<line x1="1090" y1="-233" x2="663" y2="-354"  stroke="#ca6702" stroke-width="30" stroke-linecap="round" filter="url(#shadow2)" >
+            <animateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="rotate"
+                          from="0 60 70"
+                          to="360 60 70"
+                          dur="10s"
+                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="1090" y1="-233" x2="663" y2="-354"  stroke="#ca6702" stroke-width="30" stroke-linecap="round" filter="url(#shadow2)" >
+            <animateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="rotate"
+                          from="0 60 70"
+                          to="360 60 70"
+                          dur="10s"
+                          repeatCount="indefinite"/></line> </g><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) " > <line x1="1090" y1="-233" x2="663" y2="-354"  stroke="#ca6702" stroke-width="30" stroke-linecap="round" filter="url(#shadow2)" >
+            <animateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="rotate"
+                          from="0 60 70"
+                          to="360 60 70"
+                          dur="10s"
+                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="1090" y1="-233" x2="663" y2="-354"  stroke="#ca6702" stroke-width="30" stroke-linecap="round" filter="url(#shadow2)" >
+            <animateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="rotate"
+                          from="0 60 70"
+                          to="360 60 70"
+                          dur="10s"
+                          repeatCount="indefinite"/></line> </g> </g>
+<line x1="1458" y1="-718" x2="672" y2="166"  stroke="#bb3e03" stroke-width="35" stroke-linecap="round" filter="url(#shadow2)" >
+            <animateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="rotate"
+                          from="0 60 70"
+                          to="360 60 70"
+                          dur="10s"
+                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="1458" y1="-718" x2="672" y2="166"  stroke="#bb3e03" stroke-width="35" stroke-linecap="round" filter="url(#shadow2)" >
+            <animateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="rotate"
+                          from="0 60 70"
+                          to="360 60 70"
+                          dur="10s"
+                          repeatCount="indefinite"/></line> </g><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) " > <line x1="1458" y1="-718" x2="672" y2="166"  stroke="#bb3e03" stroke-width="35" stroke-linecap="round" filter="url(#shadow2)" >
+            <animateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="rotate"
+                          from="0 60 70"
+                          to="360 60 70"
+                          dur="10s"
+                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="1458" y1="-718" x2="672" y2="166"  stroke="#bb3e03" stroke-width="35" stroke-linecap="round" filter="url(#shadow2)" >
+            <animateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="rotate"
+                          from="0 60 70"
+                          to="360 60 70"
+                          dur="10s"
+                          repeatCount="indefinite"/></line> </g> </g>
+<line x1="-1805" y1="-770" x2="-1547" y2="136"  stroke="#ae2012" stroke-width="13" stroke-linecap="round" filter="url(#shadow2)" >
+            <animateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="rotate"
+                          from="0 60 70"
+                          to="360 60 70"
+                          dur="10s"
+                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="-1805" y1="-770" x2="-1547" y2="136"  stroke="#ae2012" stroke-width="13" stroke-linecap="round" filter="url(#shadow2)" >
+            <animateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="rotate"
+                          from="0 60 70"
+                          to="360 60 70"
+                          dur="10s"
+                          repeatCount="indefinite"/></line> </g><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) " > <line x1="-1805" y1="-770" x2="-1547" y2="136"  stroke="#ae2012" stroke-width="13" stroke-linecap="round" filter="url(#shadow2)" >
+            <animateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="rotate"
+                          from="0 60 70"
+                          to="360 60 70"
+                          dur="10s"
+                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="-1805" y1="-770" x2="-1547" y2="136"  stroke="#ae2012" stroke-width="13" stroke-linecap="round" filter="url(#shadow2)" >
+            <animateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="rotate"
+                          from="0 60 70"
+                          to="360 60 70"
+                          dur="10s"
+                          repeatCount="indefinite"/></line> </g> </g>
+<line x1="-1901" y1="-921" x2="-1776" y2="933"  stroke="#9b2226" stroke-width="16" stroke-linecap="round" filter="url(#shadow2)" >
+            <animateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="rotate"
+                          from="0 60 70"
+                          to="360 60 70"
+                          dur="10s"
+                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="-1901" y1="-921" x2="-1776" y2="933"  stroke="#9b2226" stroke-width="16" stroke-linecap="round" filter="url(#shadow2)" >
+            <animateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="rotate"
+                          from="0 60 70"
+                          to="360 60 70"
+                          dur="10s"
+                          repeatCount="indefinite"/></line> </g><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) " > <line x1="-1901" y1="-921" x2="-1776" y2="933"  stroke="#9b2226" stroke-width="16" stroke-linecap="round" filter="url(#shadow2)" >
+            <animateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="rotate"
+                          from="0 60 70"
+                          to="360 60 70"
+                          dur="10s"
+                          repeatCount="indefinite"/></line><g transform="translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)" > <line x1="-1901" y1="-921" x2="-1776" y2="933"  stroke="#9b2226" stroke-width="16" stroke-linecap="round" filter="url(#shadow2)" >
             <animateTransform attributeName="transform"
                           attributeType="XML"
                           type="rotate"
