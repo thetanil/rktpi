@@ -14,25 +14,24 @@ def svg_head(
     width: str = C.w,
     height: str = "",
 ):
-    return f"""
-        <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="{vbxmin} {vbymin} {vbw} {vbh}"
-        stroke="black" stroke-width="4">
-        <filter id='shadow' color-interpolation-filters="sRGB">
-            <feDropShadow dx="2" dy="2" stdDeviation="2" flood-opacity="0.4"/>
-        </filter>
-        <filter id='shadow2' color-interpolation-filters="sRGB">
-            <feDropShadow dx="0" dy="0" stdDeviation="5.5" flood-opacity=".8"/>
-        </filter>
-        <filter id='shadow3' color-interpolation-filters="sRGB">
-        <feDropShadow dx="10" dy="10" stdDeviation="0"
-          flood-color="teal" flood-opacity="0.5"/>
-        </filter>
-        <g >
-        <rect x="0" y="0" width="100%" height="100%" fill="#ccc"
-                stroke-width="8" stroke="none" />
-        </g>
+    return f"""<svg
+xmlns="http://www.w3.org/2000/svg"
+viewBox="{vbxmin} {vbymin} {vbw} {vbh}"
+stroke="black" stroke-width="4">
+<filter id='shadow' color-interpolation-filters="sRGB">
+    <feDropShadow dx="2" dy="2" stdDeviation="2" flood-opacity="0.4"/>
+</filter>
+<filter id='shadow2' color-interpolation-filters="sRGB">
+    <feDropShadow dx="0" dy="0" stdDeviation="5.5" flood-opacity=".8"/>
+</filter>
+<filter id='shadow3' color-interpolation-filters="sRGB">
+<feDropShadow dx="10" dy="10" stdDeviation="0"
+    flood-color="teal" flood-opacity="0.5"/>
+</filter>
+<g >
+<rect x="0" y="0" width="100%" height="100%" fill="#ccc"
+        stroke-width="8" stroke="none" />
+</g>
     """
 
 
@@ -63,12 +62,12 @@ def line(
 
 def get_color():
     _colors = """
-        #cb997e
-        #ddbea9
-        #ffe8d6
-        #b7b7a4
-        #a5a58d
-        #6b705c
+#cb997e
+#ddbea9
+#ffe8d6
+#b7b7a4
+#a5a58d
+#6b705c
         """
     colors = [x.strip() for x in _colors.splitlines()]
     # colors = _colors.splitlines().trim()
@@ -154,13 +153,14 @@ def line02(
     x1: int = 0, y1: int = 80, x2: int = 100, y2: int = 120, suffix=""
 ) -> str:
     return f"""<line x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" {suffix}>
-            <animateTransform attributeName="transform"
-                          attributeType="XML"
-                          type="rotate"
-                          from="0 60 70"
-                          to="360 60 70"
-                          dur="10s"
-                          repeatCount="indefinite"/></line>"""
+<animateTransform attributeName="transform"
+attributeType="XML"
+type="rotate"
+from="0 60 70"
+to="360 60 70"
+dur="10s"
+repeatCount="indefinite"/></line>
+"""
 
 
 def lines02() -> str:
