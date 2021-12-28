@@ -29,12 +29,54 @@
 <a href=/rktpi/%20/tags/html>html</a>
 <div>
 <h2 id=spray-lines-at-the-canvas>spray lines at the canvas</h2>
-<hr>
-<p><a href=/rktpi/svg/lines02.svg>
-<figure>
-<img src=/rktpi/svg/lines02.svg alt="alt lines01">
-</figure>
-</a></p>
+<pre><code>    &lt;svg
+    xmlns=&quot;http://www.w3.org/2000/svg&quot;
+    viewBox=&quot;0 0 1920 1080&quot;
+    stroke=&quot;black&quot; stroke-width=&quot;4&quot;&gt;
+    &lt;filter id='shadow' color-interpolation-filters=&quot;sRGB&quot;&gt;
+        &lt;feDropShadow dx=&quot;2&quot; dy=&quot;2&quot; stdDeviation=&quot;2&quot; flood-opacity=&quot;0.4&quot;/&gt;
+    &lt;/filter&gt;
+    &lt;filter id='shadow2' color-interpolation-filters=&quot;sRGB&quot;&gt;
+        &lt;feDropShadow dx=&quot;0&quot; dy=&quot;0&quot; stdDeviation=&quot;5.5&quot; flood-opacity=&quot;.8&quot;/&gt;
+    &lt;/filter&gt;
+    &lt;filter id='shadow3' color-interpolation-filters=&quot;sRGB&quot;&gt;
+    &lt;feDropShadow dx=&quot;10&quot; dy=&quot;10&quot; stdDeviation=&quot;0&quot;
+      flood-color=&quot;teal&quot; flood-opacity=&quot;0.5&quot;/&gt;
+    &lt;/filter&gt;
+    &lt;g &gt;
+    &lt;rect x=&quot;0&quot; y=&quot;0&quot; width=&quot;100%&quot; height=&quot;100%&quot; fill=&quot;#ccc&quot;
+            stroke-width=&quot;8&quot; stroke=&quot;none&quot; /&gt;
+    &lt;/g&gt;
+&lt;line x1=&quot;-610&quot; y1=&quot;573&quot; x2=&quot;1315&quot; y2=&quot;-970&quot;  stroke=&quot;#005f73&quot; stroke-width=&quot;57&quot; stroke-linecap=&quot;round&quot; filter=&quot;url(#shadow2)&quot; &gt;
+        &lt;animateTransform attributeName=&quot;transform&quot;
+                      attributeType=&quot;XML&quot;
+                      type=&quot;rotate&quot;
+                      from=&quot;0 60 70&quot;
+                      to=&quot;360 60 70&quot;
+                      dur=&quot;10s&quot;
+                      repeatCount=&quot;indefinite&quot;/&gt;&lt;/line&gt;&lt;g transform=&quot;translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)&quot; &gt; &lt;line x1=&quot;-610&quot; y1=&quot;573&quot; x2=&quot;1315&quot; y2=&quot;-970&quot;  stroke=&quot;#005f73&quot; stroke-width=&quot;57&quot; stroke-linecap=&quot;round&quot; filter=&quot;url(#shadow2)&quot; &gt;
+        &lt;animateTransform attributeName=&quot;transform&quot;
+                      attributeType=&quot;XML&quot;
+                      type=&quot;rotate&quot;
+                      from=&quot;0 60 70&quot;
+                      to=&quot;360 60 70&quot;
+                      dur=&quot;10s&quot;
+                      repeatCount=&quot;indefinite&quot;/&gt;&lt;/line&gt; &lt;/g&gt;&lt;g transform=&quot;translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) &quot; &gt; &lt;line x1=&quot;-610&quot; y1=&quot;573&quot; x2=&quot;1315&quot; y2=&quot;-970&quot;  stroke=&quot;#005f73&quot; stroke-width=&quot;57&quot; stroke-linecap=&quot;round&quot; filter=&quot;url(#shadow2)&quot; &gt;
+        &lt;animateTransform attributeName=&quot;transform&quot;
+                      attributeType=&quot;XML&quot;
+                      type=&quot;rotate&quot;
+                      from=&quot;0 60 70&quot;
+                      to=&quot;360 60 70&quot;
+                      dur=&quot;10s&quot;
+                      repeatCount=&quot;indefinite&quot;/&gt;&lt;/line&gt;&lt;g transform=&quot;translate(960.0, 0) scale(-1, 1) translate(-960.0, 0) rotate(180, 960.0, 540.0)&quot; &gt; &lt;line x1=&quot;-610&quot; y1=&quot;573&quot; x2=&quot;1315&quot; y2=&quot;-970&quot;  stroke=&quot;#005f73&quot; stroke-width=&quot;57&quot; stroke-linecap=&quot;round&quot; filter=&quot;url(#shadow2)&quot; &gt;
+        &lt;animateTransform attributeName=&quot;transform&quot;
+                      attributeType=&quot;XML&quot;
+                      type=&quot;rotate&quot;
+                      from=&quot;0 60 70&quot;
+                      to=&quot;360 60 70&quot;
+                      dur=&quot;10s&quot;
+                      repeatCount=&quot;indefinite&quot;/&gt;&lt;/line&gt; &lt;/g&gt; &lt;/g&gt;
+</code></pre>
 </div>
 </article>
 </main>
