@@ -260,4 +260,3 @@ def test_artboard_test():
     with open("docs/content/svg/test.svg", "w") as the_file:
         # values = make_tiles(10, 10, 1000, sw=2)
         the_file.write(tmpl.render())
-
