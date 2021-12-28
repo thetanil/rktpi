@@ -23,7 +23,7 @@ draft: false
 
 _____________________________
 
-[![alt lines01](/rktpi/svg/lines02.svg)](/rktpi/svg/lines02.svg)
+<!-- [![alt lines01](/rktpi/svg/lines02.svg)](/rktpi/svg/lines02.svg) -->
 
 <!-- {{% svg "lines01.svg" %}} -->
 
